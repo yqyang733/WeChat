@@ -9,6 +9,13 @@
 * [计算两个小分子空间结构的RMSD用于分子对接挑选分子](https://mp.weixin.qq.com/s/SGRlG3rFuuYts-CQYiBcuA) |  
 * [ZDOCK 对接生成大规模蛋白-蛋白，蛋白-多肽，蛋白-核酸构象系综](https://mp.weixin.qq.com/s/sgHwbW-80KAkjVFAV4EM9g) |  
 * [分子动力学模拟之前对蛋白晶体结构缺失残基进行补链](https://mp.weixin.qq.com/s/pM2pv-2UXREPdcodOJI69Q) |  
+* [同源建模|使用Pymol基于MODELLER快速进行单链蛋白同源建模(转载)](https://mp.weixin.qq.com/s/sAFhI1SLU5acpNuoSKXfQg) |  
+* [AMBER+GAFF力场下蛋白-配体复合物的分子动力学模拟](https://mp.weixin.qq.com/s/7T8Paj-xDrlx0qpXpXUrXQ) |  
+* [利用PACKMOL进行动力学复杂体系建模](https://mp.weixin.qq.com/s/8Be5ngSfyi9HG7NuR9a-Ag) |  
+* [Gromacs中进行距离限制（一）](https://mp.weixin.qq.com/s/dw3TEJLp_4XF3k4oQPNbSw) |  
+* [动力学轨迹中分子互作的接触频率矩阵统计及绘图](https://mp.weixin.qq.com/s/Es9uDZgsczRSnRpvMxcPdw) |  
+* [Pymol中结构错乱显示问题及解决方法](https://mp.weixin.qq.com/s/JhsbftRK-ny_tlkpMQlKTg) |  
+* [Pymol脚本|显示蛋白/小分子的长宽高](https://mp.weixin.qq.com/s/dG26XmQLrumOuZbcupBciQ) |  
 **Temp:**  
 * [pymol](./NoteBook/pymol.md)  
 ### 人工智能 | Artificial Intelligence

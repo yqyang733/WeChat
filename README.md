@@ -16,6 +16,11 @@
 * [动力学轨迹中分子互作的接触频率矩阵统计及绘图](https://mp.weixin.qq.com/s/Es9uDZgsczRSnRpvMxcPdw) |  
 * [Pymol中结构错乱显示问题及解决方法](https://mp.weixin.qq.com/s/JhsbftRK-ny_tlkpMQlKTg) |  
 * [Pymol脚本|显示蛋白/小分子的长宽高](https://mp.weixin.qq.com/s/dG26XmQLrumOuZbcupBciQ) |  
+* [Pymol脚本|分子对接盒子可视化](https://mp.weixin.qq.com/s/R1htYl8LeZnEPdLLPXUbsA) |  
+* [Pymol|Pymol构建蛋白质点突变并优化](https://mp.weixin.qq.com/s/zG0WwpORRwZYw4-aUlRk7g) |  
+* [Pymol脚本|计算两个object原子pairs间的最短距离](https://mp.weixin.qq.com/s/cZoOsb4lsep4xIv-swZVSA) |  
+* [RNA三维结构聚类](https://mp.weixin.qq.com/s/xgSSR4DKIGT6OMqhUsHjYg) |  
+* [计算分子互作时一分子在另一分子中的埋藏面积以及埋藏比例](https://mp.weixin.qq.com/s/9_EozI3JNnSJahxAuu551A) |  
 
 **Temp:**  
 * [pymol](./NoteBook/pymol.md)  

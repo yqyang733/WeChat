@@ -48,8 +48,30 @@
 * [分子互作中的 π–π Stacking 及其绘图](https://mp.weixin.qq.com/s/IA6OnkAvOcR0E5CgL5pOkw) | 
 * [多个分子构象叠合及绘图](https://mp.weixin.qq.com/s/StQt6xHbNCnqM8PlKERzrw) |  
 * [Python绘图|使用RDKit包绘制分子指纹图](https://mp.weixin.qq.com/s/GUtbEfKp5P0vkMvbzto8Ug) |  
+* [蛋白配体互作图|使用薛定谔的 2D Sketcher 模块绘制蛋白配体2D相互作用图](https://mp.weixin.qq.com/s/VxPK1BET1YB4O8wXL4_Bqg) |  
+* [Python绘图|Python将多张静态图片合成gif动态图片](https://mp.weixin.qq.com/s/jsgZwjTSbFZ4_ze9pD9W9g) |  
+* [Pymol绘图|Pymol绘制3D旋转动画](https://mp.weixin.qq.com/s/LcW4odsii2KAP6SpwUF-Iw) |  
+* [根据蛋白多序列比对文件mapping颜色至蛋白三维结构](https://mp.weixin.qq.com/s/E7cyLau_Ycr4LHhenScOHg) |  
+* [Python绘图|Python绘制ROC曲线和PR曲线](https://mp.weixin.qq.com/s/E49bQMlz02S3zBjI-zMhUA) |  
+* [matplotlib绘制填充的曲线图](https://mp.weixin.qq.com/s/f9i2y5n3-WjxJI1sXda1Zg) |  
+* [Python绘图|Python绘制多曲线图](https://mp.weixin.qq.com/s/Iooa4ff42_lmsgmHv9bOCw) |  
+* [Python绘图|绘制热图](https://mp.weixin.qq.com/s/59vc4KPMXJ8ui15K86B6cw) |  
+* [python绘制热图](https://mp.weixin.qq.com/s/dBQRNh0Uxe4ZJljRYmkqyg) |  
+* [python绘制聚类散点图](https://mp.weixin.qq.com/s/lMBRSCJhSZ8RZLErSbNDkQ) |  
+* [python绘制单系列柱状图](https://mp.weixin.qq.com/s/Qk7SaPT3lFSoBah9vpysVg) |  
+* [蛋白质多序列比对及绘图](https://mp.weixin.qq.com/s/PBqoE7wJBIo_L3-G-Sa1lw) |  
+* [matplotlib绘制散点误差线图](https://mp.weixin.qq.com/s/VibzFh1Oh2fKi9QWfQkYkg) |  
+* [VSCode+Github+GitHub Desktop+微信公众号记录备份学习笔记和代码](https://mp.weixin.qq.com/s/l_TbdYKiMyh4fcBsmE_0Ww) |  
+* [谈谈一些使用过的大体积文件备份方法](https://mp.weixin.qq.com/s/peAD6Al1-2q0Y1nzPT2tnA) |  
 ## 理论合集 | Theory Column
 ### 经典理论 | Classical Theory
+* [图论|拉普拉斯矩阵](https://mp.weixin.qq.com/s/NivC4uQMPkHNqvjjxgWv4A) |  
 ### 经典算法 | Classical Algorithms
+* [探索生物大分子构象转变最优路径的方法TAPS](https://mp.weixin.qq.com/s/QIONB64qrC3QiczhNX932w) |  
 ### 读书笔记 | Reading Notes
+* [模式识别与机器学习|通过多项式曲线拟合案例理解机器学习重要概念（数据复杂度与模型复杂度）](https://mp.weixin.qq.com/s/_BW9b-mEliQeMIi_ZT5F8g) |  
 ### 文献 | References
+* [蛋白设计|基于深度学习的蛋白序列设计方法ProteinMPNN](https://mp.weixin.qq.com/s/2dK7U5klxw4Xy4-sOrp_Xw) |  
+* [文献阅读|使用AI方法预测CPI综述](https://mp.weixin.qq.com/s/thF26gLQZo8jy_uj9_qCGA) |  
+* [使用分子动力学模拟准确计算蛋白配体的标准结合自由能](https://mp.weixin.qq.com/s/Oaj1JGD6BDVMSBrLzCdujQ) |  
+* []() |  

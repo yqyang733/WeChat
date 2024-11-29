@@ -74,4 +74,11 @@
 * [蛋白设计|基于深度学习的蛋白序列设计方法ProteinMPNN](https://mp.weixin.qq.com/s/2dK7U5klxw4Xy4-sOrp_Xw) |  
 * [文献阅读|使用AI方法预测CPI综述](https://mp.weixin.qq.com/s/thF26gLQZo8jy_uj9_qCGA) |  
 * [使用分子动力学模拟准确计算蛋白配体的标准结合自由能](https://mp.weixin.qq.com/s/Oaj1JGD6BDVMSBrLzCdujQ) |  
-* []() |  
+* [探索生物大分子构象转变最优路径的方法TAPS](https://mp.weixin.qq.com/s/QIONB64qrC3QiczhNX932w) |  
+* [REMD方法|REST](https://mp.weixin.qq.com/s/fZEhYSnKCRHRXsASY7nHNw) |  
+* [分子对接软件 smina 原始文献](https://mp.weixin.qq.com/s/t2ZyncIWBNpYtt3bxURZ6w) |  
+* [共价对接|共价蛋白-配体结合的结构预测方法Cov_DOX](https://mp.weixin.qq.com/s/RV8lnpzVkwZeYRYSX4IPaw) |  
+* [综述|计算机辅助适配体设计和建模的方法和应用](https://mp.weixin.qq.com/s/XDs6eBvT0scdb-LoZWRsrg) |  
+* [分子对接|RNA-蛋白质对接和三维结构预测的工具和benchmarks](https://mp.weixin.qq.com/s/jGda8S6aeK17YOYOzUQprg) |  
+* [别构|激酶变构抑制原理及口袋验证](https://mp.weixin.qq.com/s/JVbu52uVAw4TC24A2MJRjw) |  
+* [靶向SIRT6隐藏别构位点的小分子抑制剂设计](https://mp.weixin.qq.com/s/8bMBYZw_w5HHS3WzCbPzAw) |  

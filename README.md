@@ -1,6 +1,7 @@
 # 学习笔记 | My NoteBook  
 
 ## 教程合集 | 
+* [pymol](./NoteBook/pymol.md)  
 ### 计算模拟 | 
 ### 人工智能 |
 ### 计算机 | 

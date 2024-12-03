@@ -63,6 +63,9 @@
 * [matplotlib绘制散点误差线图](https://mp.weixin.qq.com/s/VibzFh1Oh2fKi9QWfQkYkg) |  
 * [VSCode+Github+GitHub Desktop+微信公众号记录备份学习笔记和代码](https://mp.weixin.qq.com/s/l_TbdYKiMyh4fcBsmE_0Ww) |  
 * [谈谈一些使用过的大体积文件备份方法](https://mp.weixin.qq.com/s/peAD6Al1-2q0Y1nzPT2tnA) |  
+
+**Temp:**  
+* [以服务器作为云端实现多端同步](./NoteBook/以服务器作为云端实现多端同步.md)  
 ## 理论合集 | Theory Column
 ### 经典理论 | Classical Theory
 * [图论|拉普拉斯矩阵](https://mp.weixin.qq.com/s/NivC4uQMPkHNqvjjxgWv4A) |  

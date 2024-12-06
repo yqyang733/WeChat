@@ -35,10 +35,10 @@
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  
 * [PDBx/mmCIF文件|RCSB数据库晶体结构的Model和Assembly概念及其CIF文件中的assembly标识](https://mp.weixin.qq.com/s/hfPoYghXt83G7Fnqye7y2A) |  
 * [Pytorch|Tensor.backward()方法（构建计算图，反向传播，梯度计算）](https://mp.weixin.qq.com/s/4znyY3h59rWQF7RpKQF_nw) |  
+* [Pytorch|Variable()函数（封装张量）](https://mp.weixin.qq.com/s/k-xHyZjfgM4fwfhepSoaWA) |   
 * [皮尔逊相关系数（PCC/r）及其python计算方式](https://mp.weixin.qq.com/s/jnnHMd_AACtj6befpO8z5A) |  
 
 **Temp:**  
-* [Pytorch|Variable()函数（封装张量）]（需要尽快写好） |   
 ### 计算机 | Computer
 * [Python基础|类|类中的__init__()方法](https://mp.weixin.qq.com/s/LGAUWSvpSIqUmAlZcqmSyQ) |  
 * [Python基础|读文件|file，file.readline()和file.readlines()](https://mp.weixin.qq.com/s/trmC3lT4W81gck1N2TBTHg) |  

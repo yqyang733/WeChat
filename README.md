@@ -46,7 +46,8 @@
 * [sed/awk|替换文件字段并排序根据字段进行归类](https://mp.weixin.qq.com/s/5qYiZ9qI25ymjHW3UST9pg) |   
 
 **Temp:**  
-* [多进程运行python脚本](./NoteBook/多进程运行python脚本.md)  
+* [多进程运行python脚本](./NoteBook/多进程运行python脚本.md) 
+* [进程和线程](./NoteBook/进程和线程.md)（需要尽快写好） |  
 ### 科研工作 | Research & Work
 * [分子互作中的 π–π Stacking 及其绘图](https://mp.weixin.qq.com/s/IA6OnkAvOcR0E5CgL5pOkw) | 
 * [多个分子构象叠合及绘图](https://mp.weixin.qq.com/s/StQt6xHbNCnqM8PlKERzrw) |  

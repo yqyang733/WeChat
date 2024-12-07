@@ -47,7 +47,7 @@ pbc             = xyz       ; Periodic Boundary Conditions in all 3 dimensions
 ```shell
 echo q | gmx make_ndx -f solv_ions.gro -o index.ndx
 ```
-（6）建模完成之后会生成solv_ions.gro（用于模拟的坐标信息gro文件），topol.top，posre.itp（位置限制文件）。这几个文件是后续模拟必须文件。这里强烈建议每做一步都将生成的gro文件使用pymol等可视化软件打开检查一下，防止建模出错。  
+（6）建模完成之后会生成solv_ions.gro（用于模拟的坐标信息gro文件），topol.top，posre.itp（位置限制文件），index.ndx。这几个文件是后续模拟必须文件。这里强烈建议每做一步都将生成的gro文件使用pymol等可视化软件打开检查一下，防止建模出错。  
 ### em，nvt，npt，md
 （1）能量最小化（em）  
 能量最小化输入文件em.mdp如下所示：  

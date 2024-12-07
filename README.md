@@ -28,7 +28,7 @@
 
 **Temp:**  
 * [pymol](./NoteBook/pymol.md)  
-* [pymol选择器语法](./NoteBook/pymol选择器语法.md)（需要尽快写好）|    
+* [pymol选择器语法]() [github](./NoteBook/pymol选择器语法.md) |    
 * [Gromacs进行纯标准蛋白质体系分子动力学模拟](./NoteBook/Gromacs进行纯标准蛋白质体系分子动力学模拟.md) （需要尽快写好）|  
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx 14sb，小分子使用antechamber生成力场参数](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmx14sb小分子使用antechamber生成力场参数.md) （需要尽快写好）|  
 ### 人工智能 | Artificial Intelligence

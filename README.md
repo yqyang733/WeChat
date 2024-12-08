@@ -31,7 +31,12 @@
 * [pymol选择器语法]() [github](./NoteBook/pymol选择器语法.md) |    
 * [Gromacs进行纯标准蛋白质体系分子动力学模拟]() [github](./NoteBook/Gromacs进行纯标准蛋白质体系分子动力学模拟.md) |   
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx 14sb，小分子使用antechamber生成力场参数]() [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmx14sb小分子使用antechamber生成力场参数.md) |  
-* [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用cgenff生成力场参数]()  [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用cgenff生成力场参数)（需要尽快写好） |  
+* [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用cgenff生成力场参数]() [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用cgenff生成力场参数.md)（需要尽快写好） |  
+* [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MMFF94力场参数]() 
+* [蛋白-配体小分子动力学模拟：完全使用CHARMM-GUI建模]()
+* [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]()
+* [共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]()  
+* [几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具]() [github](./NoteBook/几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具.md)（需要尽快写好） |  
 ### 人工智能 | Artificial Intelligence
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  
 * [PDBx/mmCIF文件|RCSB数据库晶体结构的Model和Assembly概念及其CIF文件中的assembly标识](https://mp.weixin.qq.com/s/hfPoYghXt83G7Fnqye7y2A) |  
@@ -76,6 +81,7 @@
 * [图论|拉普拉斯矩阵](https://mp.weixin.qq.com/s/NivC4uQMPkHNqvjjxgWv4A) |  
 ### 经典算法 | Classical Algorithms
 * [探索生物大分子构象转变最优路径的方法TAPS](https://mp.weixin.qq.com/s/QIONB64qrC3QiczhNX932w) |  
+* [强化学习]() [github]() |  
 ### 读书笔记 | Reading Notes
 * [模式识别与机器学习|通过多项式曲线拟合案例理解机器学习重要概念（数据复杂度与模型复杂度）](https://mp.weixin.qq.com/s/_BW9b-mEliQeMIi_ZT5F8g) |  
 ### 文献 | References
@@ -90,3 +96,6 @@
 * [分子对接|RNA-蛋白质对接和三维结构预测的工具和benchmarks](https://mp.weixin.qq.com/s/jGda8S6aeK17YOYOzUQprg) |  
 * [别构|激酶变构抑制原理及口袋验证](https://mp.weixin.qq.com/s/JVbu52uVAw4TC24A2MJRjw) |  
 * [靶向SIRT6隐藏别构位点的小分子抑制剂设计](https://mp.weixin.qq.com/s/8bMBYZw_w5HHS3WzCbPzAw) |  
+
+**Temp:**  
+* [蛋白设计|蛋白质结构和功能de novo设计方法RFdiffusion]() [github](./NoteBook/蛋白设计蛋白质结构和功能denovo设计方法RFdiffusion.md)（需要尽快写好） |   

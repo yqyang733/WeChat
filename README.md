@@ -29,8 +29,9 @@
 **Temp:**  
 * [pymol](./NoteBook/pymol.md)  
 * [pymol选择器语法]() [github](./NoteBook/pymol选择器语法.md) |    
-* [Gromacs进行纯标准蛋白质体系分子动力学模拟]() [github](./NoteBook/Gromacs进行纯标准蛋白质体系分子动力学模拟.md) |  
-* [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx 14sb，小分子使用antechamber生成力场参数]() [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmx14sb小分子使用antechamber生成力场参数.md) （需要尽快写好）|  
+* [Gromacs进行纯标准蛋白质体系分子动力学模拟]() [github](./NoteBook/Gromacs进行纯标准蛋白质体系分子动力学模拟.md) |   
+* [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx 14sb，小分子使用antechamber生成力场参数]() [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmx14sb小分子使用antechamber生成力场参数.md) |  
+* [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用cgenff生成力场参数]()  [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用cgenff生成力场参数)（需要尽快写好） |  
 ### 人工智能 | Artificial Intelligence
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  
 * [PDBx/mmCIF文件|RCSB数据库晶体结构的Model和Assembly概念及其CIF文件中的assembly标识](https://mp.weixin.qq.com/s/hfPoYghXt83G7Fnqye7y2A) |  

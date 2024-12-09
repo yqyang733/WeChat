@@ -32,7 +32,7 @@
 * [Gromacs进行纯标准蛋白质体系分子动力学模拟]() [github](./NoteBook/Gromacs进行纯标准蛋白质体系分子动力学模拟.md) |   
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx 14sb，小分子使用antechamber生成力场参数]() [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmx14sb小分子使用antechamber生成力场参数.md) |  
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用cgenff生成力场参数]() [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用cgenff生成力场参数.md)（需要尽快写好） |  
-* [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MMFF94力场参数]() 
+* [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MMFF94力场参数]() [github](./蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MMFF94力场参数.md)（需要尽快写好） |   
 * [蛋白-配体小分子动力学模拟：完全使用CHARMM-GUI建模]()
 * [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]()
 * [共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]()  

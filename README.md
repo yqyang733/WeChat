@@ -14,7 +14,7 @@
 * [利用PACKMOL进行动力学复杂体系建模](https://mp.weixin.qq.com/s/8Be5ngSfyi9HG7NuR9a-Ag) |  
 * [Gromacs中进行距离限制（一）](https://mp.weixin.qq.com/s/dw3TEJLp_4XF3k4oQPNbSw) |  
 * [动力学轨迹中分子互作的接触频率矩阵统计及绘图](https://mp.weixin.qq.com/s/Es9uDZgsczRSnRpvMxcPdw) |  
-* [pymol选择器语法](https://mp.weixin.qq.com/s/zIxz0caZgFnTulQOMVekHg) [github](./NoteBook/pymol选择器语法.md) [知乎](https://zhuanlan.zhihu.com/p/11548016824) |    
+* [pymol选择器语法](https://mp.weixin.qq.com/s/zIxz0caZgFnTulQOMVekHg) | [github](./NoteBook/pymol选择器语法.md) | [知乎](https://zhuanlan.zhihu.com/p/11548016824) | |    
 * [Pymol中结构错乱显示问题及解决方法](https://mp.weixin.qq.com/s/JhsbftRK-ny_tlkpMQlKTg) |  
 * [Pymol脚本|显示蛋白/小分子的长宽高](https://mp.weixin.qq.com/s/dG26XmQLrumOuZbcupBciQ) |  
 * [Pymol脚本|分子对接盒子可视化](https://mp.weixin.qq.com/s/R1htYl8LeZnEPdLLPXUbsA) |  

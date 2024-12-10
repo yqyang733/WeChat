@@ -1,12 +1,3 @@
-# 蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用cgenff生成力场参数
-## 使用charmmgui的Ligand Reader & Modeler模块准备配体小分子参数文件
-## 使用charmmgui的Force Field Converter模块将力场转为gmx使用的力场文件
-## 生成蛋白的gro文件和top文件
-## 合并蛋白配体的gro文件和top文件并加水加离子
-## em，nvt，npt，md
-## 一键式流程化脚本
-同样，该流程化脚本是我在做项目时候针对特定的项目写定的成功运行的脚本。但并不一定适用于所有体系的一键化建模。该脚本只是提供一个样例作为记录，针对具体的项目，需要具体问题具体分析。可在该样例脚本中进行修改使用即可。   
-```shell
 echo 2 | gmx pdb2gmx -f complex.pdb -o build.pdb -water tip3p -ignh   # 选择charmm36力场
 head -n -2 build.pdb > build1.pdb
 cat step3_input.pdb >> build1.pdb
@@ -73,9 +64,4 @@ echo -e "1|13\nname 19 SOLU\n14|15|16\nname 20 SOLV\nq\n"|gmx make_ndx -f solv_i
 
 python Step2_generate_mdp.py
 python Step3_generate_submit_sh.py
-sh job.sh
-```
-## 参考
-1. [build_pipline.sh](./蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用cgenff生成力场参数/build_pipline.sh)  
-2. [Step2_generate_mdp.py](./Gromacs进行纯标准蛋白质体系分子动力学模拟/Step2_generate_mdp.py)  
-3. [Step3_generate_submit_sh.py](./Gromacs进行纯标准蛋白质体系分子动力学模拟/Step3_generate_submit_sh.py)  
+sbatch job.sh

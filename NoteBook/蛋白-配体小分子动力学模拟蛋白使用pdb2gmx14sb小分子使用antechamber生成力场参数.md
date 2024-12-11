@@ -157,7 +157,7 @@ echo 15|gmx genion -s ions.tpr -o solv_ions.gro -p topol.top -pname NA -nname CL
 echo -e "1|13\nname 24 SOLU\nname 23 SOLV\nq\n"|gmx make_ndx -f solv_ions.gro -o index.ndx
 ```
 （2）em，nvt，npt，md   
-该部分可以参考文章
+该部分可以参考文章 [Gromacs进行纯标准蛋白质体系分子动力学模拟](https://mp.weixin.qq.com/s/WZORa3lOA3H4tBjaFQ3mSA)  
 ## 一键式流程化脚本
 该流程化脚本是我在做项目时候针对特定的项目写定的成功运行的脚本。但并不一定适用于所有体系的一键化建模。该脚本只是提供一个样例作为记录，针对具体的项目，需要具体问题具体分析。可在该样例脚本中进行修改使用即可。   
 ```shell

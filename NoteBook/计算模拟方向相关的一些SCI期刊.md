@@ -6,6 +6,7 @@
 ### The Journal of Physical Chemistry Letters
 ### The Journal of Physical Chemistry B
 ### Nucleic Acids Research
+### Scientific Data
 ### Journal of Chemical Information and Modeling
 ### Journal of Cheminformatics
 ### Briefings in Bioinformatics

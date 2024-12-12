@@ -77,6 +77,7 @@
 **Temp:**  
 * [以服务器作为云端实现多端同步](./NoteBook/以服务器作为云端实现多端同步.md)   
 * [Zotero文献管理|CSL样式规范]() | [github](./NoteBook/Zotero文献管理CSL样式规范.md) | [知乎]() |  
+* [计算模拟方向相关的一些SCI期刊]() | [github](./NoteBook/计算模拟方向相关的一些SCI期刊.md) | [知乎]() |  
 ## 理论合集 | Theory Column
 ### 经典理论 | Classical Theory
 * [图论|拉普拉斯矩阵](https://mp.weixin.qq.com/s/NivC4uQMPkHNqvjjxgWv4A) |  

@@ -33,9 +33,11 @@
 * [pymol](./NoteBook/pymol.md)  
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用cgenff生成力场参数]() | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用cgenff生成力场参数.md) | [知乎]() |   
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MMFF94力场参数]() | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MMFF94力场参数.md)（需要尽快写好） | [知乎]() |    
-* [蛋白-配体小分子动力学模拟：完全使用CHARMM-GUI建模]()
-* [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]()
-* [共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]()  
+* [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MATCH力场参数]() | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MATCH力场参数.md) | [知乎]() |  
+* [swissparam生成小分子力场参数的命令行使用]() | [github](./NoteBook/swissparam生成小分子力场参数的命令行使用.md) | [知乎]() |  
+* [蛋白-配体小分子动力学模拟：完全使用CHARMM-GUI建模]() | [github](./NoteBook/蛋白-配体小分子动力学模拟完全使用CHARMM-GUI建模.md) | [知乎]() |  
+* [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]() | [github](./NoteBook/膜蛋白动力学模拟CHARMM-GUI构建膜蛋白.md) | [知乎]() |  
+* [共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]() | [github](./NoteBook/共价体系蛋白配体动力学模拟CHARMM-GUI建模共价体系.md) | [知乎]() |   
 * [几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具]() | [github](./NoteBook/几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具.md)（需要尽快写好） | [知乎]() | 
 ### 人工智能 | Artificial Intelligence
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  

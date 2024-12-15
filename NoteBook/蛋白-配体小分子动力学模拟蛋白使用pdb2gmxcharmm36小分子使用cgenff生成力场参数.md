@@ -8,12 +8,12 @@
 ## 使用charmmgui的Force Field Converter模块将力场转为gmx使用的力场文件
 将上述（2）中的ligandrm.psf，ligandrm.crd，lig.rtf和lig.prm文件上传charmmgui的Force Field Converter模块生成gmx所需的pdb和itp文件（下载整个压缩包）。  
 ![](蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用cgenff生成力场参数/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用cgenff生成力场参数_2024-12-12-20-13-27.png)  
-## 生成蛋白的gro文件和top文件
-使用pdb2gmx生成受体蛋白的gro和top文件。   
+## 生成蛋白的pdb文件和top文件
+使用pdb2gmx生成受体蛋白的pdb和top文件。   
 ```shell
 echo 2|gmx pdb2gmx -f complex.pdb -o build.pdb -water tip3p -ignh   # 2就是charmm36力场
 ```
-## 合并蛋白配体的gro文件和top文件并加水加离子
+## 合并蛋白配体的pdb文件和top文件
 （1）根据上述流程已经获得了配体小分子压缩包中的step3_input.pdb文件，LIG.itp文件和forcefield.itp文件以及受体蛋白的build.pdb和topol.top文件。接下来我们需要从这几个文件出发对蛋白和配体的pdb文件合并生成复合物的pdb文件，对他们的top文件进行处理生成包含蛋白和配体itp的topol.top文件。   
 （2）合并配体小分子和蛋白的pdb文件生成复合物pdb文件。pdb文件的合并比gro文件的合并更简单一些，只需要将配体step3_input.pdb文件内容加到蛋白build.pdb文件末尾即可，不需要合并两个文件的原子数目。可以手动合并也可以参考下述命令：  
 ```shell
@@ -78,7 +78,7 @@ topol_file("topol.top").lig_add()
 EOL
 python do.py
 ```
-## em，nvt，npt，md
+## 加水加离子，em，nvt，npt，md
 （1）加水加离子   
 ```shell
 gmx editconf -f build1.pdb -o newbox.gro -bt cubic -d 0.8

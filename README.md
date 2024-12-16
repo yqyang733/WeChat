@@ -12,6 +12,7 @@
 * [同源建模|使用Pymol基于MODELLER快速进行单链蛋白同源建模(转载)](https://mp.weixin.qq.com/s/sAFhI1SLU5acpNuoSKXfQg) |  
 * [Gromacs进行纯标准蛋白质体系分子动力学模拟](https://mp.weixin.qq.com/s/WZORa3lOA3H4tBjaFQ3mSA) | [github](./NoteBook/Gromacs进行纯标准蛋白质体系分子动力学模拟.md) | [知乎](https://zhuanlan.zhihu.com/p/12015069356) |   
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx 14sb，小分子使用antechamber生成力场参数](https://mp.weixin.qq.com/s/6sapf8OH2KlLeV4I4ohsCg) | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmx14sb小分子使用antechamber生成力场参数.md) | [知乎](https://zhuanlan.zhihu.com/p/12422517986) |   
+* [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用cgenff生成力场参数](https://mp.weixin.qq.com/s/tUzBB9eQRDQHMnC7uaI_yA) | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用cgenff生成力场参数.md) | [知乎](https://zhuanlan.zhihu.com/p/12879625782) |   
 * [AMBER+GAFF力场下蛋白-配体复合物的分子动力学模拟](https://mp.weixin.qq.com/s/7T8Paj-xDrlx0qpXpXUrXQ) |  
 * [利用PACKMOL进行动力学复杂体系建模](https://mp.weixin.qq.com/s/8Be5ngSfyi9HG7NuR9a-Ag) |  
 * [Gromacs中进行距离限制（一）](https://mp.weixin.qq.com/s/dw3TEJLp_4XF3k4oQPNbSw) |  
@@ -31,7 +32,6 @@
 
 **Temp:**  
 * [pymol](./NoteBook/pymol.md)  
-* [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用cgenff生成力场参数]() | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用cgenff生成力场参数.md) | [知乎]() |   
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MMFF94力场参数]() | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MMFF94力场参数.md)（需要尽快写好） | [知乎]() |    
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MATCH力场参数]() | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MATCH力场参数.md) | [知乎]() |  
 * [swissparam生成小分子力场参数的命令行使用]() | [github](./NoteBook/swissparam生成小分子力场参数的命令行使用.md) | [知乎]() |  

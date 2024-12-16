@@ -268,7 +268,7 @@ gen_vel      = no
 
 def prod_mdp(time, frames):
 
-    nsteps = time*1000000/2
+    nsteps = int(time*1000000/2)
     xtc_out = int(nsteps/frames)
     
     prod_mdp = open(os.path.join(".", "mdp", "prod.mdp"), "w")

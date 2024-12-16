@@ -517,6 +517,7 @@ python Step3_generate_submit_sh.py
 sh job.sh
 ```
 ## SwissParam准备配体小分子MMFF94力场参数文件参考文献
+![](蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MMFF94力场参数/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MMFF94力场参数_2024-12-16-23-14-16.png)   
 
 ## 参考
 1. http://swissparam.ch/  

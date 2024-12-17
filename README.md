@@ -47,6 +47,8 @@
 * [皮尔逊相关系数（PCC/r）及其python计算方式](https://mp.weixin.qq.com/s/jnnHMd_AACtj6befpO8z5A) |  
 
 **Temp:**  
+* [关于分子生成的临时笔记]() | [github](./NoteBook/关于分子生成的临时笔记.md) |   
+* [关于推荐系统算法的临时笔记]() | [github](./NoteBook/关于推荐系统算法的临时笔记.md) |  
 ### 计算机 | Computer
 * [Python基础|类|类中的__init__()方法](https://mp.weixin.qq.com/s/LGAUWSvpSIqUmAlZcqmSyQ) |  
 * [Python基础|读文件|file，file.readline()和file.readlines()](https://mp.weixin.qq.com/s/trmC3lT4W81gck1N2TBTHg) |  

@@ -40,6 +40,7 @@
 * [共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]() | [github](./NoteBook/共价体系蛋白配体动力学模拟CHARMM-GUI建模共价体系.md) | [知乎]() |   
 * [几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具]() | [github](./NoteBook/几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具.md)（需要尽快写好） | [知乎]() |  
 * [纯标准蛋白质体系分子动力学模拟：vmd建模+NAMD模拟]() | [github](./NoteBook/纯标准蛋白质体系分子动力学模拟vmd建模NAMD模拟.md) | [知乎]() | 
+* [力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
 ### 人工智能 | Artificial Intelligence
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  
 * [PDBx/mmCIF文件|RCSB数据库晶体结构的Model和Assembly概念及其CIF文件中的assembly标识](https://mp.weixin.qq.com/s/hfPoYghXt83G7Fnqye7y2A) |  

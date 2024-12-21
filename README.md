@@ -37,10 +37,10 @@
 * [swissparam生成小分子力场参数的命令行使用]() | [github](./NoteBook/swissparam生成小分子力场参数的命令行使用.md) | [知乎]() |  
 * [蛋白-配体小分子动力学模拟：完全使用CHARMM-GUI建模]() | [github](./NoteBook/蛋白-配体小分子动力学模拟完全使用CHARMM-GUI建模.md) | [知乎]() |  
 * [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]() | [github](./NoteBook/膜蛋白动力学模拟CHARMM-GUI构建膜蛋白.md) | [知乎]() |  
-* [共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]() | [github](./NoteBook/共价体系蛋白配体动力学模拟CHARMM-GUI建模共价体系.md) | [知乎]() |   
-* [几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具]() | [github](./NoteBook/几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具.md)（需要尽快写好） | [知乎]() |  
+* （3）[共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]() | [github](./NoteBook/共价体系蛋白配体动力学模拟CHARMM-GUI建模共价体系.md) | [知乎]() |   
+* （1）[几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具]() | [github](./NoteBook/几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具.md)（需要尽快写好） | [知乎]() |  
 * [纯标准蛋白质体系分子动力学模拟：vmd建模+NAMD模拟]() | [github](./NoteBook/纯标准蛋白质体系分子动力学模拟vmd建模NAMD模拟.md) | [知乎]() | 
-* [力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
+* （4）[力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
 ### 人工智能 | Artificial Intelligence
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  
 * [PDBx/mmCIF文件|RCSB数据库晶体结构的Model和Assembly概念及其CIF文件中的assembly标识](https://mp.weixin.qq.com/s/hfPoYghXt83G7Fnqye7y2A) |  
@@ -92,7 +92,7 @@
 * [探索生物大分子构象转变最优路径的方法TAPS](https://mp.weixin.qq.com/s/QIONB64qrC3QiczhNX932w) |  
 * [强化学习]() | [github]() |  
 * [对比学习]() | [github]() |  
-* [遗传算法]() | [github](./NoteBook/遗传算法.md) |  
+* （2）[遗传算法]() | [github](./NoteBook/遗传算法.md) |  
 ### 读书笔记 | Reading Notes
 * [模式识别与机器学习|通过多项式曲线拟合案例理解机器学习重要概念（数据复杂度与模型复杂度）](https://mp.weixin.qq.com/s/_BW9b-mEliQeMIi_ZT5F8g) |  
 ### 文献 | References

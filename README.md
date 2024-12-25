@@ -109,5 +109,6 @@
 * [靶向SIRT6隐藏别构位点的小分子抑制剂设计](https://mp.weixin.qq.com/s/8bMBYZw_w5HHS3WzCbPzAw) |  
 
 **Temp:**  
-* [蛋白设计|蛋白质结构和功能de novo设计方法RFdiffusion]() [github](./NoteBook/蛋白设计蛋白质结构和功能denovo设计方法RFdiffusion.md)（需要尽快写好） |   
-* []
+* [蛋白设计|蛋白质结构和功能de novo设计方法RFdiffusion]() | [github](./NoteBook/蛋白设计蛋白质结构和功能denovo设计方法RFdiffusion.md)（需要尽快写好） | [知乎]() |    
+* [MATCH的文献]
+* [药物发现中先进的机器学习技术综述]() | [github](./NoteBook/药物发现中先进的机器学习技术综述.md) | [知乎]() |  

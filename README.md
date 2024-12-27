@@ -86,14 +86,16 @@
 * [计算模拟方向相关的一些SCI期刊]() | [github](./NoteBook/计算模拟方向相关的一些SCI期刊.md) | [知乎]() |  
 * [matplotlib绘制散点-柱状结合分布图]() | [github](./NoteBook/matplotlib绘制散点-柱状结合分布图.md) | [知乎]() |  
 ## 理论合集 | Theory Column
-### 经典理论 | Classical Theory
+### 理论&算法 | Theory & Algorithms
 * [图论|拉普拉斯矩阵](https://mp.weixin.qq.com/s/NivC4uQMPkHNqvjjxgWv4A) |  
-### 经典算法 | Classical Algorithms
 * [探索生物大分子构象转变最优路径的方法TAPS](https://mp.weixin.qq.com/s/QIONB64qrC3QiczhNX932w) |  
+
+**Temp:**  
 * [强化学习]() | [github]() | [知乎]() |   
 * [对比学习]() | [github]() | [知乎]() |   
 * [多任务学习]() | [github]() | [知乎]() |  
 * （2）[遗传算法]() | [github](./NoteBook/遗传算法.md) |  
+* [推荐算法|协同过滤算法]() | [github](./NoteBook/推荐算法协同过滤算法.md) | [知乎]()  
 ### 读书笔记 | Reading Notes
 * [模式识别与机器学习|通过多项式曲线拟合案例理解机器学习重要概念（数据复杂度与模型复杂度）](https://mp.weixin.qq.com/s/_BW9b-mEliQeMIi_ZT5F8g) |  
 ### 文献 | References

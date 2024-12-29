@@ -101,6 +101,7 @@
 ### 文献 | References
 * [蛋白设计|基于深度学习的蛋白序列设计方法ProteinMPNN](https://mp.weixin.qq.com/s/2dK7U5klxw4Xy4-sOrp_Xw) |  
 * [文献阅读|使用AI方法预测CPI综述](https://mp.weixin.qq.com/s/thF26gLQZo8jy_uj9_qCGA) |  
+* [药物发现中先进的机器学习技术综述](https://mp.weixin.qq.com/s/1rmZrR-Ks5kfXdCsXnvHqA) | [github](./NoteBook/药物发现中先进的机器学习技术综述.md) | [知乎](https://zhuanlan.zhihu.com/p/15287402231) |  
 * [力场工具|为有机分子自动分配原子类型和力场参数的工具集MATCH](https://mp.weixin.qq.com/s/bQVsc-TphDan-WXrUQw0Xw) | [github](./NoteBook/力场工具为有机分子自动分配原子类型和力场参数的工具集MATCH.md) | [知乎](https://zhuanlan.zhihu.com/p/14788004056) |  
 * [使用分子动力学模拟准确计算蛋白配体的标准结合自由能](https://mp.weixin.qq.com/s/Oaj1JGD6BDVMSBrLzCdujQ) |  
 * [探索生物大分子构象转变最优路径的方法TAPS](https://mp.weixin.qq.com/s/QIONB64qrC3QiczhNX932w) |  
@@ -114,5 +115,4 @@
 
 **Temp:**  
 * [蛋白设计|蛋白质结构和功能de novo设计方法RFdiffusion]() | [github](./NoteBook/蛋白设计蛋白质结构和功能denovo设计方法RFdiffusion.md)（需要尽快写好） | [知乎]() |    
-* [药物发现中先进的机器学习技术综述]() | [github](./NoteBook/药物发现中先进的机器学习技术综述.md) | [知乎]() |  
 * [推荐系统|推荐系统用于抗病毒药物发现]() | [github](./NoteBook/推荐系统推荐系统用于抗病毒药物发现.md) | [知乎]() |   

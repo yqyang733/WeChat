@@ -61,6 +61,7 @@
 **Temp:**  
 * [多进程运行python脚本](./NoteBook/多进程运行python脚本.md) 
 * [进程和线程](./NoteBook/进程和线程.md)（需要尽快写好） |  
+* [算法实现|Python实现遗传算法]() | [github]() | [知乎]() |  
 ### 科研工作 | Research & Work
 * [分子互作中的 π–π Stacking 及其绘图](https://mp.weixin.qq.com/s/IA6OnkAvOcR0E5CgL5pOkw) | 
 * [多个分子构象叠合及绘图](https://mp.weixin.qq.com/s/StQt6xHbNCnqM8PlKERzrw) |  
@@ -95,7 +96,7 @@
 * [强化学习]() | [github]() | [知乎]() |   
 * [对比学习]() | [github]() | [知乎]() |   
 * [多任务学习]() | [github]() | [知乎]() |  
-* （2）[遗传算法]() | [github](./NoteBook/遗传算法.md) |  
+* （2）[遗传算法]() | [github](./NoteBook/遗传算法.md) | [知乎]() |   
 * [推荐算法|协同过滤算法]() | [github](./NoteBook/推荐算法协同过滤算法.md) | [知乎]()  
 * [启发式算法]() | [github](./NoteBook/启发式算法.md) | [知乎]() |  
 ### 读书笔记 | Reading Notes

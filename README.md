@@ -42,6 +42,7 @@
 * （1）[几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具]() | [github](./NoteBook/几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具.md)（需要尽快写好） | [知乎]() |  
 * （4）[力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
 ### 人工智能 | Artificial Intelligence
+* [AlphaFold结构预测系列工具安装及使用]() | [github](./NoteBook/AlphaFold结构预测系列工具安装及使用.md) | [知乎]() |  
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  
 * [PDBx/mmCIF文件|RCSB数据库晶体结构的Model和Assembly概念及其CIF文件中的assembly标识](https://mp.weixin.qq.com/s/hfPoYghXt83G7Fnqye7y2A) |  
 * [Pytorch|Tensor.backward()方法（构建计算图，反向传播，梯度计算）](https://mp.weixin.qq.com/s/4znyY3h59rWQF7RpKQF_nw) |  

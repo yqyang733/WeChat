@@ -100,6 +100,7 @@
 * （2）[遗传算法]() | [github](./NoteBook/遗传算法.md) | [知乎]() |   
 * [推荐算法|协同过滤算法]() | [github](./NoteBook/推荐算法协同过滤算法.md) | [知乎]()  
 * [启发式算法]() | [github](./NoteBook/启发式算法.md) | [知乎]() |  
+* [粒子群优化算法]() | [github](./NoteBook/粒子群优化算法.md) | [知乎]() |  
 ### 读书笔记 | Reading Notes
 * [模式识别与机器学习|通过多项式曲线拟合案例理解机器学习重要概念（数据复杂度与模型复杂度）](https://mp.weixin.qq.com/s/_BW9b-mEliQeMIi_ZT5F8g) |  
 ### 文献 | References

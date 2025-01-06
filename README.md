@@ -34,7 +34,7 @@
 
 **Temp:**  
 * [pymol](./NoteBook/pymol.md)  
-* （5）[蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MATCH力场参数]() | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MATCH力场参数.md) | [知乎]() |  
+* （5）[蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MATCH力场参数（Gromacs版）]() | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MATCH力场参数Gromacs版.md) | [知乎]() |  
 * [swissparam生成小分子力场参数的命令行使用]() | [github](./NoteBook/swissparam生成小分子力场参数的命令行使用.md) | [知乎]() |  
 * [蛋白-配体小分子动力学模拟：完全使用CHARMM-GUI建模]() | [github](./NoteBook/蛋白-配体小分子动力学模拟完全使用CHARMM-GUI建模.md) | [知乎]() |  
 * [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]() | [github](./NoteBook/膜蛋白动力学模拟CHARMM-GUI构建膜蛋白.md) | [知乎]() |  

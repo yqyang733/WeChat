@@ -64,6 +64,7 @@
 * [多进程运行python脚本](./NoteBook/多进程运行python脚本.md) 
 * [进程和线程](./NoteBook/进程和线程.md)（需要尽快写好） |  
 * [算法实现|Python实现遗传算法]() | [github]() | [知乎]() |  
+* [遗传算法示例|实用Python和遗传算法求解二次函数最值]() | 
 ### 科研工作 | Research & Work
 * [分子互作中的 π–π Stacking 及其绘图](https://mp.weixin.qq.com/s/IA6OnkAvOcR0E5CgL5pOkw) | 
 * [多个分子构象叠合及绘图](https://mp.weixin.qq.com/s/StQt6xHbNCnqM8PlKERzrw) |  

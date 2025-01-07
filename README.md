@@ -34,7 +34,7 @@
 
 **Temp:**  
 * [pymol](./NoteBook/pymol.md)  
-* （5）[蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MATCH力场参数（Gromacs版）]() | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MATCH力场参数Gromacs版.md) | [知乎]() |  
+* [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MATCH力场参数（Gromacs版）]() | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MATCH力场参数Gromacs版.md) | [知乎]() |  
 * [swissparam生成小分子力场参数的命令行使用]() | [github](./NoteBook/swissparam生成小分子力场参数的命令行使用.md) | [知乎]() |  
 * [蛋白-配体小分子动力学模拟：完全使用CHARMM-GUI建模]() | [github](./NoteBook/蛋白-配体小分子动力学模拟完全使用CHARMM-GUI建模.md) | [知乎]() |  
 * [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]() | [github](./NoteBook/膜蛋白动力学模拟CHARMM-GUI构建膜蛋白.md) | [知乎]() |  
@@ -94,13 +94,13 @@
 ### 理论&算法 | Theory & Algorithms
 * [常见的20种氨基酸详解]() | [github](./NoteBook/常见的20种氨基酸详解.md) | [知乎]() |  
 * [图论|拉普拉斯矩阵](https://mp.weixin.qq.com/s/NivC4uQMPkHNqvjjxgWv4A) |  
+* [遗传算法](https://mp.weixin.qq.com/s/XQBz3WG7yYr3hXGCOXCbDw) | [github](./NoteBook/遗传算法.md) | [知乎](https://zhuanlan.zhihu.com/p/16854421511) |   
 * [探索生物大分子构象转变最优路径的方法TAPS](https://mp.weixin.qq.com/s/QIONB64qrC3QiczhNX932w) |  
 
 **Temp:**  
 * [强化学习]() | [github]() | [知乎]() |   
 * [对比学习]() | [github]() | [知乎]() |   
 * [多任务学习]() | [github]() | [知乎]() |  
-* （2）[遗传算法]() | [github](./NoteBook/遗传算法.md) | [知乎]() |   
 * [推荐算法|协同过滤算法]() | [github](./NoteBook/推荐算法协同过滤算法.md) | [知乎]()  
 * [启发式算法]() | [github](./NoteBook/启发式算法.md) | [知乎]() |  
 * [粒子群优化算法]() | [github](./NoteBook/粒子群优化算法.md) | [知乎]() |  

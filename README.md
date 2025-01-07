@@ -92,12 +92,13 @@
 * [matplotlib绘制散点-柱状结合分布图]() | [github](./NoteBook/matplotlib绘制散点-柱状结合分布图.md) | [知乎]() |  
 ## 理论合集 | Theory Column
 ### 理论&算法 | Theory & Algorithms
-* [常见的20种氨基酸详解]() | [github](./NoteBook/常见的20种氨基酸详解.md) | [知乎]() |  
 * [图论|拉普拉斯矩阵](https://mp.weixin.qq.com/s/NivC4uQMPkHNqvjjxgWv4A) |  
 * [遗传算法](https://mp.weixin.qq.com/s/XQBz3WG7yYr3hXGCOXCbDw) | [github](./NoteBook/遗传算法.md) | [知乎](https://zhuanlan.zhihu.com/p/16854421511) |   
 * [探索生物大分子构象转变最优路径的方法TAPS](https://mp.weixin.qq.com/s/QIONB64qrC3QiczhNX932w) |  
 
 **Temp:**  
+* [常见的20种氨基酸详解]() | [github](./NoteBook/常见的20种氨基酸详解.md) | [知乎]() |  
+* [生成对抗网络]() | [github](./NoteBook/生成对抗网络.md) | [知乎]()   
 * [强化学习]() | [github]() | [知乎]() |   
 * [对比学习]() | [github]() | [知乎]() |   
 * [多任务学习]() | [github]() | [知乎]() |  

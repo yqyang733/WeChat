@@ -35,12 +35,12 @@
 
 **Temp:**  
 * [pymol](./NoteBook/pymol.md)  
-* [chimerax]()
+* [chimerax](./NoteBook/chimerax.md)  
 * [swissparam生成小分子力场参数的命令行使用]() | [github](./NoteBook/swissparam生成小分子力场参数的命令行使用.md) | [知乎]() |  
 * [蛋白-配体小分子动力学模拟：完全使用CHARMM-GUI建模]() | [github](./NoteBook/蛋白-配体小分子动力学模拟完全使用CHARMM-GUI建模.md) | [知乎]() |  
 * [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]() | [github](./NoteBook/膜蛋白动力学模拟CHARMM-GUI构建膜蛋白.md) | [知乎]() |  
 * [细胞膜体系动力学模拟：CHARMM-GUI构建脂质双分子层]() | [github](./NoteBook/细胞膜体系动力学模拟CHARMM-GUI构建脂质双分子层.md) | [知乎]() |  
-* [配体小分子与膜体系分子动力学模拟：CHARMM-GUI构建脂质双分子层进行模拟用于探索配体与细胞膜的互作性质]() | [github](./NoteBook/配体小分子与膜体系分子动力学模拟CHARMM-GUI构建脂质双分子层进行模拟用于探索配体与细胞膜的互作性质.md) | [知乎]() |  
+* [配体小分子与膜体系分子动力学模拟：CHARMM-GUI构建脂质双分子层，SwissParam生成小分子力场]() | [github](./NoteBook/配体小分子与膜体系分子动力学模拟CHARMM-GUI构建脂质双分子层SwissParam生成小分子力场.md) | [知乎]() |  
 * （3）[共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]() | [github](./NoteBook/共价体系蛋白配体动力学模拟CHARMM-GUI建模共价体系.md) | [知乎]() |   
 * （1）[几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具]() | [github](./NoteBook/几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具.md)（需要尽快写好） | [知乎]() |  
 * （4）[力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
@@ -92,6 +92,7 @@
 * [Zotero文献管理|CSL样式规范]() | [github](./NoteBook/Zotero文献管理CSL样式规范.md) | [知乎]() |  
 * [计算模拟方向相关的一些SCI期刊]() | [github](./NoteBook/计算模拟方向相关的一些SCI期刊.md) | [知乎]() |  
 * [matplotlib绘制散点-柱状结合分布图]() | [github](./NoteBook/matplotlib绘制散点-柱状结合分布图.md) | [知乎]() |  
+* [ChimeraX绘制膜体系]() | [github](./NoteBook/ChimeraX绘制膜体系.md) | [知乎]() |  
 ## 理论合集 | Theory Column
 ### 理论&算法 | Theory & Algorithms
 * [图论|拉普拉斯矩阵](https://mp.weixin.qq.com/s/NivC4uQMPkHNqvjjxgWv4A) |  

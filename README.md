@@ -45,6 +45,7 @@
 * （1）[几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具]() | [github](./NoteBook/几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具.md)（需要尽快写好） | [知乎]() |  
 * （4）[力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
 * [gmx命令之gmx distance计算距离]() | [github](./NoteBook/gmx命令之gmxdistance计算距离.md) | [知乎]() |  
+* [gmx轨迹周期性边界条件处理]() | [github](./NoteBook/gmx轨迹周期性边界条件处理.md) | [知乎]() |  
 ### 人工智能 | Artificial Intelligence
 * [AlphaFold结构预测系列工具安装及使用]() | [github](./NoteBook/AlphaFold结构预测系列工具安装及使用.md) | [知乎]() |  
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  

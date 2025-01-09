@@ -5,7 +5,7 @@ class config:
 
     def __init__(self):
 
-        self.time = 100        # unit: ns
+        self.time = 10000000        # unit: ns
         self.frames = 1000
 
 def mdp_file():
@@ -40,7 +40,7 @@ nstxout                = 0          ; save coordinates to .trr every 250 steps
 nstvout                = 0          ; don't save velocities to .trr
 nstfout                = 0          ; don't save forces to .trr
 
-nstxout-compressed     = 10000      ; xtc compressed trajectory output every 500 steps
+nstxout-compressed     = 0      ; xtc compressed trajectory output every 500 steps
 compressed-x-precision = 1000
 nstlog                 = 5000        ; update log file every 500 steps
 nstenergy              = 5000        ; save energies every 500 steps
@@ -114,7 +114,7 @@ nstcomm      = 100           ; frequency for center of mass motion removal
 nstxout                = 0          ; don't save coordinates to .trr
 nstvout                = 0          ; don't save velocities to .trr
 nstfout                = 0          ; don't save forces to .trr
-nstxout-compressed     = 50000      ; xtc compressed trajectory output every 5000 steps
+nstxout-compressed     = 0      ; xtc compressed trajectory output every 5000 steps
 compressed-x-precision = 1000       ; precision with which to write to the compressed trajectory file
 nstlog                 = 5000       ; update log file every 10 ps
 nstenergy              = 5000       ; save energies every 10 ps
@@ -163,9 +163,9 @@ DispCorr                = EnerPres
 ; TEMPERATURE & PRESSURE COUPL
 ;----------------------------------------------------
 tcoupl     =  V-rescale
-tc_grps    =  Protein non-Protein
+tc_grps    =  SOLU    SOLV
 tau_t      =  1.0     1.0
-ref_t      =  310.0   310.0
+ref_t      =  310.15  310.15
 pcoupl     =  no
 
 ;----------------------------------------------------
@@ -173,7 +173,7 @@ pcoupl     =  no
 ;----------------------------------------------------
 gen_vel      = yes      ; Velocity generation is on (if gen_vel is 'yes', continuation should be 'no')
 gen_seed     = -1       ; Use random seed
-gen_temp     = 310.0
+gen_temp     = 310.15
 '''
     )
 
@@ -200,7 +200,7 @@ nstcomm      = 100           ; frequency for center of mass motion removal
 nstxout                = 0          ; don't save coordinates to .trr
 nstvout                = 0          ; don't save velocities to .trr
 nstfout                = 0          ; don't save forces to .trr
-nstxout-compressed     = 500000     ; xtc compressed trajectory output every 5000 steps
+nstxout-compressed     = 0     ; xtc compressed trajectory output every 5000 steps
 compressed-x-precision = 10000      ; precision with which to write to the compressed trajectory file
 nstlog                 = 5000       ; update log file every 10 ps
 nstenergy              = 5000       ; save energies every 10 ps
@@ -249,9 +249,9 @@ DispCorr                = EnerPres
 ; TEMPERATURE & PRESSURE COUPL
 ;----------------------------------------------------
 tcoupl     =  V-rescale
-tc_grps    =  Protein non-Protein
+tc_grps    =  SOLU    SOLV
 tau_t      =  1.0     1.0
-ref_t      =  310.0   310.0
+ref_t      =  310.15  310.15
 pcoupl           = Berendsen
 pcoupltype       = isotropic
 tau_p            = 0.5                  ; time constant (ps)
@@ -269,7 +269,7 @@ gen_vel      = no
 def prod_mdp(time, frames):
 
     nsteps = int(time*1000000/2)
-    xtc_out = int(nsteps/frames)
+    xtc_out = 500000
     
     prod_mdp = open(os.path.join(".", "mdp", "prod.mdp"), "w")
     prod_mdp.write(
@@ -339,9 +339,9 @@ DispCorr                = EnerPres
 ; TEMPERATURE & PRESSURE COUPL
 ;----------------------------------------------------
 tcoupl           =  V-rescale
-tc_grps          =  Protein non-Protein
+tc_grps          =  SOLU    SOLV
 tau_t            =  1.0     1.0
-ref_t            =  310.0   310.0
+ref_t            =  310.15  310.15
 pcoupl           = Parrinello-Rahman
 pcoupltype       = isotropic            ; uniform scaling of box vectors
 tau_p            = 1                    ; time constant (ps)
@@ -353,7 +353,7 @@ compressibility  = 4.5e-05              ; isothermal compressibility of water (b
 ;----------------------------------------------------
 gen_vel      = no       ; Velocity generation is off (if gen_vel is 'yes', continuation should be 'no')
 gen_seed     = -1       ; Use random seed
-gen_temp     = 310.0
+gen_temp     = 310.15
 '''.format(nsteps, xtc_out)
     )
 

@@ -27,9 +27,8 @@ echo "hostname: $(hostname)"
 echo "CUDA_VISIBLE_DEVICES: $CUDA_VISIBLE_DEVICES"
 echo "Job directory: $(pwd)"
 
-source /public/home/yqyang/software/gromacs-2021.5-installed/bin/GMXRC.bash
-export LD_LIBRARY_PATH=/public/software/lib/:$LD_LIBRARY_PATH
-source /public/software/compiler/intel/intel-compiler-2017.5.239/bin/compilervars.sh intel64
+# Decide the software version
+source /public/software/profile.d/apps_gromacs_2023.2.sh
 
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 
@@ -59,7 +58,7 @@ mkdir ../prod
 cd ../prod
 if [ ! -f prod.gro ]; then
     gmx grompp -f ../mdp/prod.mdp -c ../npt/npt.gro -t ../npt/npt.cpt -p ../topol.top -o prod.tpr -r ../npt/npt.gro -maxwarn 4 -n ../index.ndx
-    gmx mdrun -s prod.tpr -deffnm prod -dhdl dhdl -ntmpi 1 -nb gpu -bonded gpu -gpu_id 0 -pme gpu
+    gmx mdrun -s prod.tpr -deffnm prod -dhdl dhdl -ntmpi 1 -nb gpu -bonded gpu -gpu_id 0 -pme gpu  -nsteps 50000000
 fi
 ###################################
 cd ..                                                                                                                                        

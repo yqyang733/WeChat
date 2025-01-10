@@ -229,7 +229,7 @@ continuation            = yes
 ;
 nstcomm                 = 100
 comm_mode               = linear
-comm_grps               = SOLU_MEMB SOLV
+comm_grps               = MEMB SOLV
 '''
     )
 

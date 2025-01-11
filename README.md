@@ -43,6 +43,7 @@
 * [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]() | [github](./NoteBook/膜蛋白动力学模拟CHARMM-GUI构建膜蛋白.md) | [知乎]() |  
 * [配体小分子与膜体系分子动力学模拟：CHARMM-GUI构建脂质双分子层，SwissParam生成小分子力场]() | [github](./NoteBook/配体小分子与膜体系分子动力学模拟CHARMM-GUI构建脂质双分子层SwissParam生成小分子力场.md) | [知乎]() |  
 * （3）[共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]() | [github](./NoteBook/共价体系蛋白配体动力学模拟CHARMM-GUI建模共价体系.md) | [知乎]() |   
+* [共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成共价小分子参数]() | [github]() | [知乎]() |  
 * （4）[力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
 * [gmx命令之gmx distance计算距离]() | [github](./NoteBook/gmx命令之gmxdistance计算距离.md) | [知乎]() |  
 * [gmx轨迹周期性边界条件处理]() | [github](./NoteBook/gmx轨迹周期性边界条件处理.md) | [知乎]() |  

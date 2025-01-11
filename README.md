@@ -11,12 +11,14 @@
 * [分子动力学模拟之前对蛋白晶体结构缺失残基进行补链](https://mp.weixin.qq.com/s/pM2pv-2UXREPdcodOJI69Q) |  
 * [同源建模|使用Pymol基于MODELLER快速进行单链蛋白同源建模(转载)](https://mp.weixin.qq.com/s/sAFhI1SLU5acpNuoSKXfQg) |  
 * [Gromacs进行纯标准蛋白质体系分子动力学模拟](https://mp.weixin.qq.com/s/WZORa3lOA3H4tBjaFQ3mSA) | [github](./NoteBook/Gromacs进行纯标准蛋白质体系分子动力学模拟.md) | [知乎](https://zhuanlan.zhihu.com/p/12015069356) |   
+* [几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具](https://mp.weixin.qq.com/s/diBumqzfJR8V0EDc0-0uyg) | [github](./NoteBook/几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具.md) | [知乎](https://zhuanlan.zhihu.com/p/17803667003) |  
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx 14sb，小分子使用antechamber生成力场参数](https://mp.weixin.qq.com/s/6sapf8OH2KlLeV4I4ohsCg) | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmx14sb小分子使用antechamber生成力场参数.md) | [知乎](https://zhuanlan.zhihu.com/p/12422517986) |   
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用cgenff生成力场参数](https://mp.weixin.qq.com/s/tUzBB9eQRDQHMnC7uaI_yA) | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用cgenff生成力场参数.md) | [知乎](https://zhuanlan.zhihu.com/p/12879625782) |   
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MMFF94力场参数](https://mp.weixin.qq.com/s/O7vRQ5AHHSrNtDAoCsiZWw) | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MMFF94力场参数.md) | [知乎](https://zhuanlan.zhihu.com/p/13707877318) |    
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MATCH力场参数（Gromacs版）](https://mp.weixin.qq.com/s/DMMZ7kOgD8uWidgyHH6NTQ) | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MATCH力场参数Gromacs版.md) | [知乎](https://zhuanlan.zhihu.com/p/17160200902) |   
 * [纯标准蛋白质体系分子动力学模拟：vmd建模+NAMD模拟](https://mp.weixin.qq.com/s/JQpoMEbtP2d57WKjunlqYw) | [github](./NoteBook/纯标准蛋白质体系分子动力学模拟vmd建模NAMD模拟.md) | [知乎](https://zhuanlan.zhihu.com/p/14145261461) |   
 * [AMBER+GAFF力场下蛋白-配体复合物的分子动力学模拟](https://mp.weixin.qq.com/s/7T8Paj-xDrlx0qpXpXUrXQ) |  
+* [细胞膜体系动力学模拟：CHARMM-GUI构建脂质双分子层](https://mp.weixin.qq.com/s/bv-asjP6tht7Gai-w42Xcw) | [github](./NoteBook/细胞膜体系动力学模拟CHARMM-GUI构建脂质双分子层.md) | [知乎](https://zhuanlan.zhihu.com/p/17803020579) |  
 * [利用PACKMOL进行动力学复杂体系建模](https://mp.weixin.qq.com/s/8Be5ngSfyi9HG7NuR9a-Ag) |  
 * [Gromacs中进行距离限制（一）](https://mp.weixin.qq.com/s/dw3TEJLp_4XF3k4oQPNbSw) |  
 * [动力学轨迹中分子互作的接触频率矩阵统计及绘图](https://mp.weixin.qq.com/s/Es9uDZgsczRSnRpvMxcPdw) |  
@@ -39,10 +41,8 @@
 * [swissparam生成小分子力场参数的命令行使用]() | [github](./NoteBook/swissparam生成小分子力场参数的命令行使用.md) | [知乎]() |  
 * [蛋白-配体小分子动力学模拟：完全使用CHARMM-GUI建模]() | [github](./NoteBook/蛋白-配体小分子动力学模拟完全使用CHARMM-GUI建模.md) | [知乎]() |  
 * [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]() | [github](./NoteBook/膜蛋白动力学模拟CHARMM-GUI构建膜蛋白.md) | [知乎]() |  
-* [细胞膜体系动力学模拟：CHARMM-GUI构建脂质双分子层]() | [github](./NoteBook/细胞膜体系动力学模拟CHARMM-GUI构建脂质双分子层.md) | [知乎]() |  
 * [配体小分子与膜体系分子动力学模拟：CHARMM-GUI构建脂质双分子层，SwissParam生成小分子力场]() | [github](./NoteBook/配体小分子与膜体系分子动力学模拟CHARMM-GUI构建脂质双分子层SwissParam生成小分子力场.md) | [知乎]() |  
 * （3）[共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]() | [github](./NoteBook/共价体系蛋白配体动力学模拟CHARMM-GUI建模共价体系.md) | [知乎]() |   
-* （1）[几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具]() | [github](./NoteBook/几个使用过的用于动力学模拟的小分子力场以及小分子力场生成工具.md)（需要尽快写好） | [知乎]() |  
 * （4）[力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
 * [gmx命令之gmx distance计算距离]() | [github](./NoteBook/gmx命令之gmxdistance计算距离.md) | [知乎]() |  
 * [gmx轨迹周期性边界条件处理]() | [github](./NoteBook/gmx轨迹周期性边界条件处理.md) | [知乎]() |  

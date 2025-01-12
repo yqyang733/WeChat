@@ -1,4 +1,4 @@
-# gmx命令之gmx distance计算距离
+# gmx命令|gmx distance计算距离
 ## Temp
 计算index中溶质组SOLU和膜组MEMB质心之间的距离   
 ```shell

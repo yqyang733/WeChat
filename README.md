@@ -45,7 +45,8 @@
 * （3）[共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]() | [github](./NoteBook/共价体系蛋白配体动力学模拟CHARMM-GUI建模共价体系.md) | [知乎]() |   
 * [共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成共价小分子参数]() | [github]() | [知乎]() |  
 * （4）[力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
-* [gmx命令之gmx distance计算距离]() | [github](./NoteBook/gmx命令之gmxdistance计算距离.md) | [知乎]() |  
+* [gmx命令|gmx distance计算距离]() | [github](./NoteBook/gmx命令之gmxdistance计算距离.md) | [知乎]() |  
+* [gmx命令|gmx trjconv处理轨迹]() | [github]() | [知乎]() |  
 * [gmx后处理|单链体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理单链体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |  
 * [gmx后处理|膜体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理膜体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |  
 * [RDKit生成小分子3D构象系综]() | [github](./NoteBook/RDKit生成小分子3D构象系综.md) | [知乎]() |  

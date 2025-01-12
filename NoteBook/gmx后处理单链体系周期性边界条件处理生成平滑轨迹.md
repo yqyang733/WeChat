@@ -12,9 +12,11 @@
 
 PBC处理之后生成平滑轨迹效果如下：  
 ![](gmx后处理单链体系周期性边界条件处理生成平滑轨迹/gmx后处理单链体系周期性边界条件处理生成平滑轨迹_2025-01-12-17-24-47.gif)    
-## gmx trjconv 一些参数说明
+## gmx trjconv 一些PBC相关参数说明
 
 ## 单链体系PBC梳理通用流程
+### 处理思路
+### PBC处理命令集
 ```shell
 mkdir analysis
 cd analysis
@@ -25,12 +27,14 @@ cp ../../npt/npt.gro ../../prod/npt.gro
 cp ../../index.ndx .
 
 echo "[ atom ]" >> index.ndx
-echo "1" >> index.ndx
+echo "1" >> index.ndx   # 这里选择1号原子，在PBC处理时候以该原子为参考，将其置于盒子中心。  
 
-gmx trjconv -f ../../prod/npt.gro -s ../../prod/prod.tpr -o new.pdb -n index.ndx   # 选择需要输出的group，拿npt.gro生成的pdb文件作为参考结构便于可视化轨迹。   
+gmx trjconv -f ../../prod/npt.gro -s ../../prod/prod.tpr -o new.pdb -n index.ndx   # 选择需要输出的group，拿npt.gro生成的pdb文件作为参考结构便于可视化轨迹。这里输出的组别需要和后面要观察的轨迹输出组别一致，否则可视化时候原子数目不匹配。     
 gmx trjconv -f ../../prod/prod.xtc -s ../../prod/prod.tpr -o md_pbcmol_new.xtc -pbc atom -ur compact -center -n index.ndx   # 首先选择group atom将1号原子放在盒子中心。然后选择输出整个system。
 gmx trjconv -f md_pbcmol_new.xtc -s ../../prod/prod.tpr -o md_pbcwhole_new.xtc -pbc whole -n index.ndx   # 选择输出整个system。  
-gmx trjconv -f md_pbcwhole_new.xtc -s ../../prod/prod.tpr -o md_pbcfit_all_new.xtc -fit rot+trans -n index.ndx   # 首先选择蛋白进行对齐。然后选择蛋白进行输出。  
+gmx trjconv -f md_pbcwhole_new.xtc -s ../../prod/prod.tpr -o md_pbcfit_all_new.xtc -fit rot+trans -n index.ndx   # 首先选择蛋白进行对齐。然后选择蛋白进行输出（这个最后输出部分可自定义，我一般输出蛋白，因为这里只用观察蛋白结构。如果需要观察水分子，离子或者体系中其他组别，可将其输出）。  
 rm md_pbcmol_new.xtc md_pbcwhole_new.xtc
 ```
+### 逐步分析效果
+
 ## 最终效果

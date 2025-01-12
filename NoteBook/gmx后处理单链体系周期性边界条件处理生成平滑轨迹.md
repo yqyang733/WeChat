@@ -67,7 +67,7 @@ gmx trjconv -f md_pbcmol_new.xtc -s ../../prod/prod.tpr -o md_pbcwhole_new.xtc -
 ```
 ![](gmx后处理单链体系周期性边界条件处理生成平滑轨迹/gmx后处理单链体系周期性边界条件处理生成平滑轨迹_2025-01-12-22-34-47.gif)    
 
-使用下述命令执行-fit rot+trans之后。可得最终效果如下图所示：
+使用下述命令执行-fit rot+trans之后。可得最终效果如下图所示：  
 ```shell
 gmx trjconv -f md_pbcwhole_new.xtc -s ../../prod/prod.tpr -o md_pbcfit_all_new.xtc -fit rot+trans -n index.ndx   # 首先选择蛋白进行对齐。然后选择蛋白进行输出（这个最后输出部分可自定义，我一般输出蛋白，因为这里只用观察蛋白结构。如果需要观察水分子，离子或者体系中其他组别，可将其输出）。  
 ```

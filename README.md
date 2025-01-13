@@ -47,10 +47,13 @@
 * （4）[力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
 * [gmx命令|gmx distance计算距离]() | [github](./NoteBook/gmx命令之gmxdistance计算距离.md) | [知乎]() |  
 * [gmx命令|gmx trjconv处理轨迹]() | [github]() | [知乎]() |  
-* [gmx后处理|单链体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理单链体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |  
+* [gmx命令|gmx cluster聚类]() | [github](./NoteBook/gmx命令gmxcluster聚类.md) | [知乎]() |  
+* [gmx后处理|单链体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理单链体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |   
+* [gmx后处理|多链体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理多链体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |   
 * [gmx后处理|膜体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理膜体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |  
 * [RDKit生成小分子3D构象系综]() | [github](./NoteBook/RDKit生成小分子3D构象系综.md) | [知乎]() |  
 * [Pymol界面编辑模式下的多种操作（坐标平移旋转等）]() | [github](./NoteBook/Pymol界面编辑模式下的多种操作坐标平移旋转等.md) | [知乎]() |  
+* [Gromacs进行拉伸分子动力学（SMD）模拟]() | [github]() | [知乎]() |  
 ### 人工智能 | Artificial Intelligence
 * [AlphaFold结构预测系列工具安装及使用]() | [github](./NoteBook/AlphaFold结构预测系列工具安装及使用.md) | [知乎]() |  
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  

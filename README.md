@@ -50,6 +50,7 @@
 * [gmx命令|gmx trjconv处理轨迹]() | [github]() | [知乎]() |  
 * [gmx命令|gmx cluster聚类]() | [github](./NoteBook/gmx命令gmxcluster聚类.md) | [知乎]() |  
 * [gmx命令|gmx editconf进行结构预处理]() | [github]() | [知乎]() |  
+* [gmx命令|gmx genrestr生成位置限制文件]() | [github]() | [知乎]() |  
 * [gmx后处理|单链体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理单链体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |   
 * [gmx后处理|多链体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理多链体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |   
 * [gmx后处理|膜体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理膜体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |  

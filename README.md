@@ -56,6 +56,7 @@
 * [gmx后处理|膜体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理膜体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |  
 * [RDKit生成小分子3D构象系综]() | [github](./NoteBook/RDKit生成小分子3D构象系综.md) | [知乎]() |  
 * [Gromacs进行拉伸分子动力学（SMD）模拟]() | [github]() | [知乎]() |  
+* [Gromacs进行伞形采样（Umbrella Sampling）]() | [github](./NoteBook/Gromacs进行伞形采样UmbrellaSampling.md) | [知乎]() |  
 ### 人工智能 | Artificial Intelligence
 * [AlphaFold结构预测系列工具安装及使用]() | [github](./NoteBook/AlphaFold结构预测系列工具安装及使用.md) | [知乎]() |  
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  

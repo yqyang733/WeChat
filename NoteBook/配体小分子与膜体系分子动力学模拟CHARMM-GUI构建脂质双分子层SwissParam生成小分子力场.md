@@ -11,7 +11,7 @@ CHARMM-GUI构建膜体系流程可参考文章 [细胞膜体系动力学模拟�
 
 ![](配体小分子与膜体系分子动力学模拟CHARMM-GUI构建脂质双分子层SwissParam生成小分子力场/配体小分子与膜体系分子动力学模拟CHARMM-GUI构建脂质双分子层SwissParam生成小分子力场_2025-01-10-15-42-54.png)
 ## Pymol中摆放配体小分子在膜中的位置
-Pymol中摆放配体小分子在膜中的位置的操作可参考文章 []()，在Pymol编辑模式下使用Shift+M移动配体小分子至膜体系的合适位置中。  
+Pymol中摆放配体小分子在膜中的位置的操作可参考文章 [Pymol界面编辑模式下的多种操作（坐标平移旋转等）](https://mp.weixin.qq.com/s/wabUmh7f2QudbRLDm_leYw)，在Pymol编辑模式下使用Shift+Middle移动配体小分子至膜体系的合适位置中。  
 
 ![](配体小分子与膜体系分子动力学模拟CHARMM-GUI构建脂质双分子层SwissParam生成小分子力场/配体小分子与膜体系分子动力学模拟CHARMM-GUI构建脂质双分子层SwissParam生成小分子力场_2025-01-10-15-43-35.png)  
 ## SwissParam生成MMFF小分子力场参数

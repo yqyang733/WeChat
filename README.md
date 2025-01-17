@@ -82,7 +82,8 @@
 * [遗传算法示例|实用Python和遗传算法求解二次函数最值]() |  
 * [Slurm作业调度系统使用（一）]() | [github](./NoteBook/Slurm作业调度系统使用一.md) | [知乎]() |  
 ### 科研工作 | Research & Work
-* [分子互作中的 π–π Stacking 及其绘图](https://mp.weixin.qq.com/s/IA6OnkAvOcR0E5CgL5pOkw) | 
+* [分子互作中的 π–π Stacking 及其绘图](https://mp.weixin.qq.com/s/IA6OnkAvOcR0E5CgL5pOkw) |  
+* [ChimeraX绘制膜体系](https://mp.weixin.qq.com/s/92XJ9oiaTbcMH2uVIS2cfg) | [github](./NoteBook/ChimeraX绘制膜体系.md) | [知乎](https://zhuanlan.zhihu.com/p/18919327574) |  
 * [多个分子构象叠合及绘图](https://mp.weixin.qq.com/s/StQt6xHbNCnqM8PlKERzrw) |  
 * [Python绘图|使用RDKit包绘制分子指纹图](https://mp.weixin.qq.com/s/GUtbEfKp5P0vkMvbzto8Ug) |  
 * [蛋白配体互作图|使用薛定谔的 2D Sketcher 模块绘制蛋白配体2D相互作用图](https://mp.weixin.qq.com/s/VxPK1BET1YB4O8wXL4_Bqg) |  
@@ -106,7 +107,6 @@
 * [Zotero文献管理|CSL样式规范]() | [github](./NoteBook/Zotero文献管理CSL样式规范.md) | [知乎]() |  
 * [计算模拟方向相关的一些SCI期刊]() | [github](./NoteBook/计算模拟方向相关的一些SCI期刊.md) | [知乎]() |  
 * [matplotlib绘制散点-柱状结合分布图]() | [github](./NoteBook/matplotlib绘制散点-柱状结合分布图.md) | [知乎]() |  
-* [ChimeraX绘制膜体系]() | [github](./NoteBook/ChimeraX绘制膜体系.md) | [知乎]() |  
 ## 理论合集 | Theory Column
 ### 理论&算法 | Theory & Algorithms
 * [图论|拉普拉斯矩阵](https://mp.weixin.qq.com/s/NivC4uQMPkHNqvjjxgWv4A) |  

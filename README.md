@@ -46,7 +46,7 @@
 * [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]() | [github](./NoteBook/膜蛋白动力学模拟CHARMM-GUI构建膜蛋白.md) | [知乎]() |  
 * [配体小分子与膜体系分子动力学模拟：CHARMM-GUI构建脂质双分子层，SwissParam生成小分子力场]() | [github](./NoteBook/配体小分子与膜体系分子动力学模拟CHARMM-GUI构建脂质双分子层SwissParam生成小分子力场.md) | [知乎]() |  
 * （3）[共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]() | [github](./NoteBook/共价体系蛋白配体动力学模拟CHARMM-GUI建模共价体系.md) | [知乎]() |   
-* [共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成共价小分子参数]() | [github]() | [知乎]() |  
+* [共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成共价小分子参数]() | [github](./NoteBook/共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成共价小分子参数.md) | [知乎]() |  
 * （4）[力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
 * [gmx命令|gmx distance计算距离]() | [github](./NoteBook/gmx命令之gmxdistance计算距离.md) | [知乎]() |  
 * [gmx命令|gmx trjconv处理轨迹]() | [github]() | [知乎]() |  
@@ -85,7 +85,7 @@
 * [Slurm作业调度系统使用（一）]() | [github](./NoteBook/Slurm作业调度系统使用一.md) | [知乎]() |  
 ### 科研工作 | Research & Work
 * [分子互作中的 π–π Stacking 及其绘图](https://mp.weixin.qq.com/s/IA6OnkAvOcR0E5CgL5pOkw) |  
-* [ChimeraX绘制膜体系](https://mp.weixin.qq.com/s/92XJ9oiaTbcMH2uVIS2cfg) | [github](./NoteBook/ChimeraX绘制膜体系.md) | [知乎](https://zhuanlan.zhihu.com/p/18919327574) |  
+* [ChimeraX绘制膜体系](https://mp.weixin.qq.com/s/92XJ9oiaTbcMH2uVIS2cfg) | [github](./NoteBook/ChimeraX绘制膜体系.md) | [知乎](https://zhuanlan.zhihu.com/p/19286500139) |  
 * [多个分子构象叠合及绘图](https://mp.weixin.qq.com/s/StQt6xHbNCnqM8PlKERzrw) |  
 * [Python绘图|使用RDKit包绘制分子指纹图](https://mp.weixin.qq.com/s/GUtbEfKp5P0vkMvbzto8Ug) |  
 * [蛋白配体互作图|使用薛定谔的 2D Sketcher 模块绘制蛋白配体2D相互作用图](https://mp.weixin.qq.com/s/VxPK1BET1YB4O8wXL4_Bqg) |  

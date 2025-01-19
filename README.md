@@ -1,5 +1,7 @@
 # 学习笔记 | My NoteBook  
 ## 教程合集 | Tutorial Column
+### 文章精选
+* [教程合集文章精选（截至2025年春节/2025.1.29）]() | [github](./NoteBook/教程合集文章精选截至2025年春节20250129.md) | [知乎]() |  
 ### 计算模拟 | Computational Simulation
 * [分子对接软件smina安装以及受体配体准备模块安装及其用法简介](https://mp.weixin.qq.com/s/YRaRRkpZ4UXAaL6Sw2oJfA) |  
 * [smina 软件进行蛋白小分子的分子对接（一）：已有结合其他先验配体信息的蛋白新配体分子对接](https://mp.weixin.qq.com/s/cHrL8LLSl0nX7pFkhHeGSA) |  
@@ -108,6 +110,8 @@
 * [计算模拟方向相关的一些SCI期刊]() | [github](./NoteBook/计算模拟方向相关的一些SCI期刊.md) | [知乎]() |  
 * [matplotlib绘制散点-柱状结合分布图]() | [github](./NoteBook/matplotlib绘制散点-柱状结合分布图.md) | [知乎]() |  
 ## 理论合集 | Theory Column
+### 文章精选
+* [理论合集文章精选（截至2025年春节/2025.1.29）]() | [github](./NoteBook/理论合集文章精选截至2025年春节20250129.md) | [知乎]() |  
 ### 理论&算法 | Theory & Algorithms
 * [图论|拉普拉斯矩阵](https://mp.weixin.qq.com/s/NivC4uQMPkHNqvjjxgWv4A) |  
 * [遗传算法](https://mp.weixin.qq.com/s/XQBz3WG7yYr3hXGCOXCbDw) | [github](./NoteBook/遗传算法.md) | [知乎](https://zhuanlan.zhihu.com/p/16854421511) |   
@@ -143,3 +147,7 @@
 
 **Temp:**  
 * [蛋白设计|蛋白质结构和功能de novo设计方法RFdiffusion]() | [github](./NoteBook/蛋白设计蛋白质结构和功能denovo设计方法RFdiffusion.md)（需要尽快写好） | [知乎]() |    
+## 更多信息
+### 与我联系
+### 总结与反思
+* [亿笔记公众号文章2024年度总结]() | [github](./NoteBook/亿笔记公众号文章2024年度总结.md) | [知乎]() |  

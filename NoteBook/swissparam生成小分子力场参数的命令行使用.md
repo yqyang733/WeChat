@@ -73,18 +73,42 @@ curl -s -g "swissparam.ch:5678/startparam?mySMILES=CCC(=O)NC1=C2C=CC=CC2=CN=C1&a
 ### 共价小分子
 **写在前面：Swissparam提供了一些反应类型的共价配体MMFF力场参数生成方式。但是没有提及如何在Gromacs中使用这些参数进行蛋白-共价配体动力学模拟。并且对比发现采用该方式生成的共价配体化合物参数与将残基-共价配体的复合mol2文件以上述非共价形式使用MMFF生成的参数一致。但是我们大多时候之所以需要共价配体参数是要进一步动力学模拟。所以个人感觉以此方式生成的共价参数有方便用于NAMD模拟建模，具体可参考文章 []()。但这些文件对Gromacs建模参考不大，如何应用Swissparam产生的MMFF力场使用Gromacs进行蛋白-共价配体的动力学模拟可参考文章 []()。** 
 
-首先介绍一下为共价小分子进行参数化的SwissParam命令结构。命令格式如下所示，其中**molecule.mol2**是输入的共价分子的mol2格式文件。**ligsite=l**是共价连接的配体位置（即配体分子的原子名称）。
+首先介绍一下为共价小分子进行参数化的SwissParam命令结构。命令格式如下所示，其中**molecule.mol2**是输入的共价分子的mol2格式文件。**ligsite=l**是共价连接的配体位置（即配体分子的原子名称）。**reaction=r**是选择的反应类型。**protres=p**是执行共价连接的蛋白质残基，可以是 CYS、SER、LYS、ASP、GLU、THR、TYR。**topology=t**是配体的拓扑结构类型，可以是 "post-cap" 或 "pre-reactive"。   
+可使用的反应类型有：**aziridine_open**：对氮杂环的开环机制；**blac_open**：对β-内酰胺的开环机制；**carbonyl_add**：对羰基的加成反应；**disulf_form**：形成二硫键；**epoxide_open**：对环氧化物的开环机制；**glac_open**：对ɣ-内酰胺的开环机制；**imine_form**：形成亚胺；**michael_add**：对Michael受体的加成反应；**nitrile_add**：对腈的加成反应；**nucl_subst**：亲核取代反应。   
 ```shell
 $ curl -s -F "myMol2=@molecule.mol2" "swissparam.ch:5678/startparam?ligsite=l&reaction=r&protes=p&topology=t" 
 ```
 
 这里还是以几个例子介绍一下使用SwissParam命令行生成共价配体MMFF参数的方式。  
-
 **示例六：以如下图所示PDBid：5VBM中的共价配体92V为例，使用SwissParam命令行生成配体参数。** 该示例是蛋白的CYS残基与配体的巯基形成了二硫键。  
 ![](swissparam生成小分子力场参数的命令行使用/swissparam生成小分子力场参数的命令行使用_2025-01-19-22-32-20.png)   
+首先准备输入的mol2格式文件。如下图所示，mol2文件是在配体的基础上向外延申了二硫键以及一个碳原子。其中向外延申的CYS残基部分的原子名称需要和残基中的原子名称一致。
+![](swissparam生成小分子力场参数的命令行使用/swissparam生成小分子力场参数的命令行使用_2025-01-20-12-07-38.png)   
+反应的配体原子名称是S24。反应类型是形成二硫键反应。形成共价的残基是CYS。输入结构文件的结构是共价反应后的结构。所以使用下述命令准备共价配体参数。该方式形成的力场参数是MMFF的。  
+```shell
+# MMFF CHARMM36
+$ curl -s -F "myMol2=@92V.mol2" "swissparam.ch:5678/startparam?ligsite=S24&reaction=disulf_form&protres=CYS&topology=post-cap"
 
+# MMFF CHARMM22
+$ curl -s -F "myMol2=@92V.mol2" "swissparam.ch:5678/startparam?ligsite=S24&reaction=disulf_form&protres=CYS&topology=post-cap&c22"
 
-**示例七：指定删除原子以转换拓扑：post-cap 到 pre-reactive。** 在使用 post 拓扑时，可以指定需要删除的原子，以转换为 pre 拓扑。如果这些原子没有“官方 PDB 名称”，可以通过添加 &delete=atom1,atom2 来指定它们。
+# MMFF CHARMM27
+$ curl -s -F "myMol2=@92V.mol2" "swissparam.ch:5678/startparam?ligsite=S24&reaction=disulf_form&protres=CYS&topology=post-cap&c27"
+```
+生成的文件如下所示。92V是含有二硫键以及延申的碳原子的结构的力场文件，post是反应后的配体部分的结构以及力场文件，pre是单单配体部分反应前的结构以及力场文件。  
+![](swissparam生成小分子力场参数的命令行使用/swissparam生成小分子力场参数的命令行使用_2025-01-20-12-20-13.png)  
+![](swissparam生成小分子力场参数的命令行使用/swissparam生成小分子力场参数的命令行使用_2025-01-20-13-23-02.png)  
+
+**这里我比较好奇该共价方式产生的92V的MMFF参数是否和非共价方式产生的92V的MMFF参数一致。所以将92V使用非共价方式又产生了一遍参数并与共价方式产生的参数进行比较。如下图所示，产生的参数一模一样。**  
+![](swissparam生成小分子力场参数的命令行使用/swissparam生成小分子力场参数的命令行使用_2025-01-20-16-01-13.png)  
+
+**示例七：指定删除原子以转换拓扑：post-cap 到 pre-reactive。** 在使用 post 拓扑时，可以指定需要删除的原子，以转换为 pre 拓扑。如果这些原子没有“官方 PDB 名称”，可以通过添加 &delete=atom1,atom2 来指定它们。以下图分子为例，下图中的共价反应是CYS的巯基和配体分子中的羰基加成而得。其中的SG原子属于CYS。所以反应后仅配体部分结构应该要将下图中的SG原子和H49原子删除。  
+![](swissparam生成小分子力场参数的命令行使用/swissparam生成小分子力场参数的命令行使用_2025-01-20-15-47-12.png)  
+使用下述命令准备配体力场参数并删除SG原子和H49原子。  
+```shell
+curl -s -F "myMol2=@CB0000002.mol2" "swissparam.ch:5678/startparam?delete=SG,H49&reaction=carbonyl_add&topology=post-cap&protres=CYS&ligsite=C32"  
+```
+
 ## 任务状态查询与进度跟踪
 使用提交时获得的会话编号（Session Number）检查任务的状态。如果计算任务正在排队等待执行将看到相关信息，并提供排队任务的数量。如果任务正在运行将看到任务的当前运行状态和运行时间。如果参数化任务已经完成也会看到任务完成的通知。其实分子提交之后界面会提示命令。    
 ```shell

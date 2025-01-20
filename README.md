@@ -24,6 +24,7 @@
 * [利用PACKMOL进行动力学复杂体系建模](https://mp.weixin.qq.com/s/8Be5ngSfyi9HG7NuR9a-Ag) |  
 * [Gromacs中进行距离限制（一）](https://mp.weixin.qq.com/s/dw3TEJLp_4XF3k4oQPNbSw) |  
 * [动力学轨迹中分子互作的接触频率矩阵统计及绘图](https://mp.weixin.qq.com/s/Es9uDZgsczRSnRpvMxcPdw) |  
+* [gmx后处理|单链体系周期性边界条件处理生成平滑轨迹](https://mp.weixin.qq.com/s/ng68myzJSfyRF7ITaFQb3Q) | [github](./NoteBook/gmx后处理单链体系周期性边界条件处理生成平滑轨迹.md) | [知乎](https://zhuanlan.zhihu.com/p/19438071581) |   
 * [pymol选择器语法](https://mp.weixin.qq.com/s/zIxz0caZgFnTulQOMVekHg) | [github](./NoteBook/pymol选择器语法.md) | [知乎](https://zhuanlan.zhihu.com/p/11548016824) | |    
 * [Pymol界面编辑模式下的多种操作（坐标平移旋转等）](https://mp.weixin.qq.com/s/wabUmh7f2QudbRLDm_leYw) | [github](./NoteBook/Pymol界面编辑模式下的多种操作坐标平移旋转等.md) | [知乎](https://zhuanlan.zhihu.com/p/18027180899) |  
 * [Pymol中结构错乱显示问题及解决方法](https://mp.weixin.qq.com/s/JhsbftRK-ny_tlkpMQlKTg) |  
@@ -53,7 +54,6 @@
 * [gmx命令|gmx cluster聚类]() | [github](./NoteBook/gmx命令gmxcluster聚类.md) | [知乎]() |  
 * [gmx命令|gmx editconf进行结构预处理]() | [github]() | [知乎]() |  
 * [gmx命令|gmx genrestr生成位置限制文件]() | [github]() | [知乎]() |  
-* [gmx后处理|单链体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理单链体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |   
 * [gmx后处理|多链体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理多链体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |   
 * [gmx后处理|膜体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理膜体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |  
 * [RDKit生成小分子3D构象系综]() | [github](./NoteBook/RDKit生成小分子3D构象系综.md) | [知乎]() |  

@@ -73,10 +73,16 @@ curl -s -g "swissparam.ch:5678/startparam?mySMILES=CCC(=O)NC1=C2C=CC=CC2=CN=C1&a
 ### 共价小分子
 **写在前面：Swissparam提供了一些反应类型的共价配体MMFF力场参数生成方式。但是没有提及如何在Gromacs中使用这些参数进行蛋白-共价配体动力学模拟。并且对比发现采用该方式生成的共价配体化合物参数与将残基-共价配体的复合mol2文件以上述非共价形式使用MMFF生成的参数一致。但是我们大多时候之所以需要共价配体参数是要进一步动力学模拟。所以个人感觉以此方式生成的共价参数有方便用于NAMD模拟建模，具体可参考文章 []()。但这些文件对Gromacs建模参考不大，如何应用Swissparam产生的MMFF力场使用Gromacs进行蛋白-共价配体的动力学模拟可参考文章 []()。** 
 
-但是这里还是以几个例子介绍一下使用SwissParam命令行生成共价配体MMFF参数的方式。  
+首先介绍一下为共价小分子进行参数化的SwissParam命令结构。命令格式如下所示，其中**molecule.mol2**是输入的共价分子的mol2格式文件。**ligsite=l**是共价连接的配体位置（即配体分子的原子名称）。
+```shell
+$ curl -s -F "myMol2=@molecule.mol2" "swissparam.ch:5678/startparam?ligsite=l&reaction=r&protes=p&topology=t" 
+```
+
+这里还是以几个例子介绍一下使用SwissParam命令行生成共价配体MMFF参数的方式。  
 
 **示例六：以如下图所示PDBid：5VBM中的共价配体92V为例，使用SwissParam命令行生成配体参数。** 该示例是蛋白的CYS残基与配体的巯基形成了二硫键。  
-![](swissparam生成小分子力场参数的命令行使用/swissparam生成小分子力场参数的命令行使用_2025-01-19-22-32-20.png)  
+![](swissparam生成小分子力场参数的命令行使用/swissparam生成小分子力场参数的命令行使用_2025-01-19-22-32-20.png)   
+
 
 **示例七：指定删除原子以转换拓扑：post-cap 到 pre-reactive。** 在使用 post 拓扑时，可以指定需要删除的原子，以转换为 pre 拓扑。如果这些原子没有“官方 PDB 名称”，可以通过添加 &delete=atom1,atom2 来指定它们。
 ## 任务状态查询与进度跟踪

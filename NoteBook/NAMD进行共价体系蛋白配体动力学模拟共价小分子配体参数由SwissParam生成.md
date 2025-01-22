@@ -834,6 +834,7 @@ outputTiming        50000
 run                 50000
 ```
 ## 跑模拟的脚本文件  
+**do_md.sh**  
 ```shell
 source apps_namd_3.0alpha9.sh
 
@@ -856,3 +857,5 @@ $NAMD $base_nptstep > $base_nptstep.log
 base_prodstep=prod.config
 $NAMD $base_prodstep > $base_prodstep.log
 ```
+## 模拟所需文件的整体构成
+![](NAMD进行共价体系蛋白配体动力学模拟共价小分子配体参数由SwissParam生成/NAMD进行共价体系蛋白配体动力学模拟共价小分子配体参数由SwissParam生成_2025-01-22-20-21-13.png)  

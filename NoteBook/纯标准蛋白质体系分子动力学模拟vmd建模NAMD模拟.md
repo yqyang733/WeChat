@@ -116,15 +116,15 @@ package require psfgen
 psfcontext reset
 mol load psf complex.psf pdb complex.pdb
 set everyone [atomselect top all]
-set minmax [measure minmax $everyone]
-foreach {{min max}} $minmax {{ break }}
-foreach {{xmin ymin zmin}} $min {{ break }}
-foreach {{xmax ymax zmax}} $max {{ break }}
+set minmax [measure minmax \$everyone]
+foreach {min max} \$minmax { break }
+foreach {xmin ymin zmin} \$min { break }
+foreach {xmax ymax zmax} \$max { break }
 set file [open "PBCBOX.dat" w]
-puts $file "cellBasisVector1 [ expr $xmax - $xmin ] 0 0 "
-puts $file "cellBasisVector2 0 [ expr $ymax - $ymin ] 0 "
-puts $file "cellBasisVector3 0 0 [ expr $zmax - $zmin ] "
-puts $file "cellOrigin [ expr ($xmax + $xmin)/2 ] [ expr ($ymax + $ymin)/2 ] [ expr ($zmax + $zmin)/2 ] "
+puts \$file "cellBasisVector1 [ expr \$xmax - \$xmin ] 0 0 "
+puts \$file "cellBasisVector2 0 [ expr \$ymax - \$ymin ] 0 "
+puts \$file "cellBasisVector3 0 0 [ expr \$zmax - \$zmin ] "
+puts \$file "cellOrigin [ expr (\$xmax + \$xmin)/2 ] [ expr (\$ymax + \$ymin)/2 ] [ expr (\$zmax + \$zmin)/2 ] "
 exit
 EOF
 vmd/1.9.3/vmd -dispdev text -e mk_pbcbox.tcl
@@ -135,10 +135,10 @@ rm mk_pbcbox.tcl
 cat > constraints.tcl << EOF
 mol new complex.pdb type pdb waitfor all
 set all [atomselect top "all"]
-$all set beta 0
+\$all set beta 0
 set sel [atomselect top "protein and noh"]
-$sel set beta 1
-$all writepdb constraints.pdb
+\$sel set beta 1
+\$all writepdb constraints.pdb
 quit
 EOF
 vmd/1.9.3/vmd -dispdev text -e constraints.tcl

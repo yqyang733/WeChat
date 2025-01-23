@@ -1,10 +1,13 @@
-# Gromacs进行共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，共价小分子使用swissparm
+# Gromacs进行共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，共价小分子使用swissparam
+写在前面，该教程中设置共价的方式是在[ intermolecular_interactions ]字段使用分子间限制（距离限制，角度限制，二面角限制）模拟共价作用。[ intermolecular_interactions ]字段中不能使用成化学键的bond type (type 1)，所以选用了距离限制（type 6）代替。所以真实模拟时候确实能模拟近似共价的效果。后续会再出一份不使用[ intermolecular_interactions ]字段，而是将蛋白配体itp合并，将共价相关信息直接加入[ bonds ]，[ angles ]，[ dihedrals ]中进行模拟的教程，后者会更加准确一些。   
+
 分子动力学模拟（MD模拟）作为一种强有力的计算工具，已广泛应用于生物分子研究中，尤其是在蛋白质-配体相互作用的研究中。对于共价体系，蛋白质和配体之间的结合不仅是非共价相互作用的简单叠加，更涉及到共价键的形成与断裂，这使得常规的非共价模拟方法无法充分捕捉其细节。因此，为共价小分子配体生成合适的力场参数并进行准确的动力学模拟，成为了研究共价抑制剂、设计新药和探索化学反应机制的核心挑战。
 
 在这方面，GROMACS与SwissParam的结合提供了一个强大且高效的解决方案。GROMACS作为世界领先的分子动力学模拟软件，其优秀的性能和灵活的功能，使得它成为进行蛋白质-配体动力学模拟的理想选择。而SwissParam，则为共价小分子配体提供了自动化的力场参数化功能，特别适用于处理涉及共价结合的复杂体系。通过将GROMACS中的pdb2gmx模块与CHARMM36力场相结合，我们能够为蛋白质生成稳定的结构和准确的力场描述；而使用SwissParam为共价小分子配体生成专门的参数，可以有效模拟配体与蛋白质之间的共价反应过程。
 
 之前文章 []() 介绍了NAMD进行共价体系模拟。本文仍以PDBid：5VBM为例将重点介绍如何在GROMACS平台上进行共价体系的蛋白-配体动力学模拟，利用CHARMM36为蛋白质提供强大的力场支持，同时使用SwissParam为共价小分子配体生成定制的力场参数。通过这一过程，我们可以深入了解共价抑制剂在蛋白质活性位点的作用机制，为药物设计、分子优化及新疗法的探索提供科学依据。
 
+![](Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm_2025-01-23-21-06-47.png)  
 ## 使用SwissParam产生共价配体92V的MMFF力场参数itp文件
 示例PDBid：5VBM中共价配体92V中的原子S24与蛋白的CYS残基形成了二硫键。  
 ![](Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm_2025-01-23-11-39-14.png)  
@@ -30,7 +33,7 @@ echo 2|gmx pdb2gmx -f complex.pdb -o build.pdb -water tip3p -ignh   # 2就是cha
 ```
 ## 修改拓扑文件构建共价结构和力场参数（键，键角，二面角等参数）
 **（1）修改结构pdb文件，删除多余原子。** 将72位的CYS残基中的HG1原子删除。  
-**（2）修改蛋白部分top文件。topol.top文件结构如下图所示。**   
+**（2）修改蛋白部分top文件。** topol.top文件结构如下图所示。    
 ![](Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm_2025-01-23-13-01-28.png)  
 
 这里将蛋白单链的itp部分单独写入到一个itp文件中并将其#include入top文件中。如下图。  
@@ -285,7 +288,7 @@ gmx editconf -f build.pdb -o newbox.gro -bt cubic -d 0.8
 [ intermolecular_interactions ]
 [ bonds ]
 ; ai aj fu b0 kb, b0 kb
-1079   2685   1   0.20500   152420.6   
+1079   2685   6   0.20500   152420.6   
 [ angles ]
 ; ai aj ak fu th0 kth ub0 kub th0 kth ub0 kub
 2678   2685   1079   1   100.3160   829.24   

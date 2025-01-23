@@ -48,7 +48,8 @@
 * [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]() | [github](./NoteBook/膜蛋白动力学模拟CHARMM-GUI构建膜蛋白.md) | [知乎]() |  
 * （3）[共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]() | [github](./NoteBook/共价体系蛋白配体动力学模拟CHARMM-GUI建模共价体系.md) | [知乎]() |   
 * [NAMD进行共价体系蛋白配体动力学模拟，共价小分子配体参数由SwissParam生成]() | [github](./NoteBook/NAMD进行共价体系蛋白配体动力学模拟共价小分子配体参数由SwissParam生成.md) | [知乎]() |   
-* [Gromacs进行共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，共价小分子使用swissparm]() | [github](./NoteBook/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm.md) | [知乎]() |  
+* [Gromacs进行共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，共价小分子使用swissparam]() | [github](./NoteBook/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm.md) | [知乎]() |  
+* [Gromacs进行共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，共价小分子使用swissparam（续）]() | [github](./NoteBook/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparam续.md) | [知乎]() |   
 * （4）[力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
 * [gmx命令|gmx distance计算距离]() | [github](./NoteBook/gmx命令之gmxdistance计算距离.md) | [知乎]() |  
 * [gmx命令|gmx trjconv处理轨迹]() | [github]() | [知乎]() |  

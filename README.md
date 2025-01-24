@@ -18,6 +18,7 @@
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用cgenff生成力场参数](https://mp.weixin.qq.com/s/tUzBB9eQRDQHMnC7uaI_yA) | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用cgenff生成力场参数.md) | [知乎](https://zhuanlan.zhihu.com/p/12879625782) |   
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MMFF94力场参数](https://mp.weixin.qq.com/s/O7vRQ5AHHSrNtDAoCsiZWw) | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MMFF94力场参数.md) | [知乎](https://zhuanlan.zhihu.com/p/13707877318) |    
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MATCH力场参数（Gromacs版）](https://mp.weixin.qq.com/s/DMMZ7kOgD8uWidgyHH6NTQ) | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MATCH力场参数Gromacs版.md) | [知乎](https://zhuanlan.zhihu.com/p/17160200902) |   
+* [NAMD进行共价体系蛋白配体动力学模拟，共价小分子配体参数由SwissParam生成](https://mp.weixin.qq.com/s/NoNAdhYkwiPOOVD9wjk8AQ) | [github](./NoteBook/NAMD进行共价体系蛋白配体动力学模拟共价小分子配体参数由SwissParam生成.md) | [知乎](https://zhuanlan.zhihu.com/p/20134065528) |   
 * [纯标准蛋白质体系分子动力学模拟：vmd建模+NAMD模拟](https://mp.weixin.qq.com/s/JQpoMEbtP2d57WKjunlqYw) | [github](./NoteBook/纯标准蛋白质体系分子动力学模拟vmd建模NAMD模拟.md) | [知乎](https://zhuanlan.zhihu.com/p/14145261461) |   
 * [AMBER+GAFF力场下蛋白-配体复合物的分子动力学模拟](https://mp.weixin.qq.com/s/7T8Paj-xDrlx0qpXpXUrXQ) |  
 * [细胞膜体系动力学模拟：CHARMM-GUI构建脂质双分子层](https://mp.weixin.qq.com/s/bv-asjP6tht7Gai-w42Xcw) | [github](./NoteBook/细胞膜体系动力学模拟CHARMM-GUI构建脂质双分子层.md) | [知乎](https://zhuanlan.zhihu.com/p/17803020579) |  
@@ -47,7 +48,6 @@
 * [蛋白-配体小分子动力学模拟：完全使用CHARMM-GUI建模]() | [github](./NoteBook/蛋白-配体小分子动力学模拟完全使用CHARMM-GUI建模.md) | [知乎]() |  
 * [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]() | [github](./NoteBook/膜蛋白动力学模拟CHARMM-GUI构建膜蛋白.md) | [知乎]() |  
 * （3）[共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]() | [github](./NoteBook/共价体系蛋白配体动力学模拟CHARMM-GUI建模共价体系.md) | [知乎]() |   
-* [NAMD进行共价体系蛋白配体动力学模拟，共价小分子配体参数由SwissParam生成]() | [github](./NoteBook/NAMD进行共价体系蛋白配体动力学模拟共价小分子配体参数由SwissParam生成.md) | [知乎]() |   
 * [Gromacs进行共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，共价小分子使用swissparam]() | [github](./NoteBook/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm.md) | [知乎]() |  
 * [Gromacs进行共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，共价小分子使用swissparam（续）]() | [github](./NoteBook/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparam续.md) | [知乎]() |   
 * （4）[力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  

@@ -24,13 +24,13 @@ $ curl -s -F "myMol2=@92V.mol2" "swissparam.ch:5678/startparam?ligsite=S24&react
 ## vmd共价建模
 **（1）加载蛋白文件，加载共价配体文件，构建共价键生成结构拓扑文件。**   
 ```shell
-$ ~/../../software/apps/vmd/1.9.3/vmd -dispdev text   # 启动vmd交互界面执行命令
+$ vmd -dispdev text   # 启动vmd交互界面执行命令
 
 vmd > package require psfgen   # 加载psfgen包建模
 vmd > psfcontext reset
 
-vmd > topology /public/home/yqyang/file/vegf-toppar/top_all36_prot.rtf   # 加载力场文件
-vmd > topology /public/home/yqyang/file/vegf-toppar/toppar_water_ions.str
+vmd > topology toppar/top_all36_prot.rtf   # 加载力场文件
+vmd > topology toppar/toppar_water_ions.str
 
 vmd > pdbalias residue HIS HSE
 vmd > alias atom ILE CD1 CD
@@ -98,7 +98,7 @@ echo ${box_size}
 ```
 **（3）加水加离子。**    
 ```shell
-$ ~/../../software/apps/vmd/1.9.3/vmd -dispdev text
+$ vmd -dispdev text
 
 vmd > package require pbctools   # 加载pbctools软件包
 

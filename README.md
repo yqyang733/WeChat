@@ -63,6 +63,7 @@
 * [Gromacs进行拉伸分子动力学（SMD）模拟]() | [github]() | [知乎]() |  
 * [Gromacs进行伞形采样（Umbrella Sampling）]() | [github](./NoteBook/Gromacs进行伞形采样UmbrellaSampling.md) | [知乎]() |  
 * [Gromacs进行动力学模拟Error集锦]() | [github](./NoteBook/Gromacs进行动力学模拟Error集锦.md) | [知乎]() |    
+* [学术版Desmond申请及在Linux系统中安装]() | [github](./NoteBook/学术版Desmond申请及在Linux系统中安装.md) | [知乎]()  
 ### 人工智能 | Artificial Intelligence
 * [AlphaFold结构预测系列工具安装及使用]() | [github](./NoteBook/AlphaFold结构预测系列工具安装及使用.md) | [知乎]() |  
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  
@@ -114,7 +115,7 @@
 * [matplotlib绘制散点-柱状结合分布图]() | [github](./NoteBook/matplotlib绘制散点-柱状结合分布图.md) | [知乎]() |  
 ## 理论合集 | Theory Column
 ### 文章精选
-* [理论合集文章精选（截至2025年春节/2025.1.29）]() | [github](./NoteBook/理论合集文章精选截至2025年春节20250129.md) | [知乎]() |  
+* [理论合集文章精选（截至2025年春节/2025.1.29）](https://mp.weixin.qq.com/s/C50sY1oAFb6MmB0oLNmslw) | [github](./NoteBook/理论合集文章精选截至2025年春节20250129.md) | [知乎](https://zhuanlan.zhihu.com/p/20483313054) |  
 * [理论合集文章精选（截至2026年春节/2026.2.17）]() | [github](./NoteBook/理论合集文章精选截至2025年春节20260217.md) | [知乎]() |  
 ### 理论&算法 | Theory & Algorithms
 * [图论|拉普拉斯矩阵](https://mp.weixin.qq.com/s/NivC4uQMPkHNqvjjxgWv4A) |  
@@ -151,6 +152,8 @@
 
 **Temp:**  
 * [蛋白设计|蛋白质结构和功能de novo设计方法RFdiffusion]() | [github](./NoteBook/蛋白设计蛋白质结构和功能denovo设计方法RFdiffusion.md)（需要尽快写好） | [知乎]() |    
+* [蛋白设计|靶向蛋白-小分子形成的新表面进行蛋白设计的几何深度学习计算策略MaSIF-neosurf]() | [github](./NoteBook/蛋白设计靶向蛋白-小分子形成的新表面进行蛋白设计的几何深度学习计算策略MaSIF-neosurf.md) | [知乎]() |  
+* [AI工具|AI辅助文献阅读的Prompt]() | [github](./NoteBook/AI工具AI辅助文献阅读的Prompt.md) | [知乎] |  
 ## 更多信息
 ### 与我联系
 ### 总结&反思

@@ -153,6 +153,8 @@
 **Temp:**  
 * [蛋白设计|蛋白质结构和功能de novo设计方法RFdiffusion]() | [github](./NoteBook/蛋白设计蛋白质结构和功能denovo设计方法RFdiffusion.md)（需要尽快写好） | [知乎]() |    
 * [蛋白设计|靶向蛋白-小分子形成的新表面进行蛋白设计的几何深度学习计算策略MaSIF-neosurf]() | [github](./NoteBook/蛋白设计靶向蛋白-小分子形成的新表面进行蛋白设计的几何深度学习计算策略MaSIF-neosurf.md) | [知乎]() |  
+* [EVOLVEpro：蛋白质语言模型驱动的快速定向进化]() | [github](./NoteBook/EVOLVEpro蛋白质语言模型驱动的快速定向进化.md) | [知乎]() |  
+* [NCS文献周览（2025.2.3-2025.2.9）]() | [github](./NoteBook/NCS文献周览20250203-20250209.md) | [知乎]() |  
 * [AI工具|AI辅助文献阅读的Prompt]() | [github](./NoteBook/AI工具AI辅助文献阅读的Prompt.md) | [知乎] |  
 ## 更多信息
 ### 与我联系

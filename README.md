@@ -2,6 +2,8 @@
 ## 教程合集 | Tutorial Column
 ### 文章精选
 * [教程合集文章精选（截至2025年春节/2025.1.29）](https://mp.weixin.qq.com/s/YzvvgaE8RYmaVlZDT3Vp-Q) | [github](./NoteBook/教程合集文章精选截至2025年春节20250129.md) | [知乎](https://zhuanlan.zhihu.com/p/20408395193) |  
+
+**Temp:**  
 * [教程合集文章精选（截至2026年春节/2026.2.17）]() | [github](./NoteBook/教程合集文章精选截至2026年春节20260217.md) | [知乎]() |  
 ### 计算模拟 | Computational Simulation
 * [分子对接软件smina安装以及受体配体准备模块安装及其用法简介](https://mp.weixin.qq.com/s/YRaRRkpZ4UXAaL6Sw2oJfA) |  
@@ -116,6 +118,8 @@
 ## 理论合集 | Theory Column
 ### 文章精选
 * [理论合集文章精选（截至2025年春节/2025.1.29）](https://mp.weixin.qq.com/s/C50sY1oAFb6MmB0oLNmslw) | [github](./NoteBook/理论合集文章精选截至2025年春节20250129.md) | [知乎](https://zhuanlan.zhihu.com/p/20483313054) |  
+
+**Temp:**  
 * [理论合集文章精选（截至2026年春节/2026.2.17）]() | [github](./NoteBook/理论合集文章精选截至2025年春节20260217.md) | [知乎]() |  
 ### 理论&算法 | Theory & Algorithms
 * [图论|拉普拉斯矩阵](https://mp.weixin.qq.com/s/NivC4uQMPkHNqvjjxgWv4A) |  
@@ -159,5 +163,7 @@
 ## 更多信息
 ### 与我联系
 ### 总结&反思
-* [亿笔记公众号文章2024年度总结]() | [github](./NoteBook/亿笔记公众号文章2024年度总结.md) | [知乎]() |   
+* [亿笔记公众号文章2024年度总结](https://mp.weixin.qq.com/s/f_bF-9_kbkyfCy8DZmPYjA) | [github](./NoteBook/亿笔记公众号文章2024年度总结.md) | [知乎](https://zhuanlan.zhihu.com/p/20597614642) |   
+
+**Temp:**  
 * [亿笔记公众号文章2025年度总结]() | [github](./NoteBook/亿笔记公众号文章2025年度总结.md) | [知乎]() |   

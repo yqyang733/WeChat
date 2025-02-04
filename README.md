@@ -66,6 +66,7 @@
 * [Gromacs进行伞形采样（Umbrella Sampling）]() | [github](./NoteBook/Gromacs进行伞形采样UmbrellaSampling.md) | [知乎]() |  
 * [Gromacs进行动力学模拟Error集锦]() | [github](./NoteBook/Gromacs进行动力学模拟Error集锦.md) | [知乎]() |    
 * [学术版Desmond申请及在Linux系统中安装]() | [github](./NoteBook/学术版Desmond申请及在Linux系统中安装.md) | [知乎]()  
+* [使用Maestro中的Glide模块进行蛋白-配体小分子对接]() | [github](./NoteBook/使用Maestro中的Glide模块进行蛋白-配体小分子对接.md) | [知乎]()  
 ### 人工智能 | Artificial Intelligence
 * [AlphaFold结构预测系列工具安装及使用]() | [github](./NoteBook/AlphaFold结构预测系列工具安装及使用.md) | [知乎]() |  
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  

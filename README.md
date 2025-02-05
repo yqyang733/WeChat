@@ -11,6 +11,7 @@
 * [smina 软件进行蛋白小分子的分子对接（二）：已知结合位点信息自定义对接盒子的蛋白配体小分子对接](https://mp.weixin.qq.com/s/ExytwFEgtU_DwcDn5Kb5qA) |  
 * [smina 软件进行蛋白小分子的分子对接（三）：未知结合位点信息的蛋白配体小分子盲对接](https://mp.weixin.qq.com/s/eMBHYtdoGhGJhgyHmWKLsg) |  
 * [smina 软件进行蛋白小分子的分子对接（四）：口袋预测软件确定对接盒子的蛋白配体小分子对接](https://mp.weixin.qq.com/s/t8F7HE8E1YwcYpVaN_f-XA) |  
+* [学术版Desmond申请及在Linux系统中安装](https://mp.weixin.qq.com/s/O-iq3fM6RLtRZzJBd6p7EQ) | [github](./NoteBook/学术版Desmond申请及在Linux系统中安装.md) | [知乎](https://zhuanlan.zhihu.com/p/21514676816)  
 * [计算两个小分子空间结构的RMSD用于分子对接挑选分子](https://mp.weixin.qq.com/s/SGRlG3rFuuYts-CQYiBcuA) |  
 * [ZDOCK 对接生成大规模蛋白-蛋白，蛋白-多肽，蛋白-核酸构象系综](https://mp.weixin.qq.com/s/sgHwbW-80KAkjVFAV4EM9g) |  
 * [分子动力学模拟之前对蛋白晶体结构缺失残基进行补链](https://mp.weixin.qq.com/s/pM2pv-2UXREPdcodOJI69Q) |  
@@ -65,7 +66,6 @@
 * [Gromacs进行拉伸分子动力学（SMD）模拟]() | [github]() | [知乎]() |  
 * [Gromacs进行伞形采样（Umbrella Sampling）]() | [github](./NoteBook/Gromacs进行伞形采样UmbrellaSampling.md) | [知乎]() |  
 * [Gromacs进行动力学模拟Error集锦]() | [github](./NoteBook/Gromacs进行动力学模拟Error集锦.md) | [知乎]() |    
-* [学术版Desmond申请及在Linux系统中安装]() | [github](./NoteBook/学术版Desmond申请及在Linux系统中安装.md) | [知乎]()  
 * [使用Maestro中的Glide模块进行蛋白-配体小分子对接]() | [github](./NoteBook/使用Maestro中的Glide模块进行蛋白-配体小分子对接.md) | [知乎]()  
 ### 人工智能 | Artificial Intelligence
 * [AlphaFold结构预测系列工具安装及使用]() | [github](./NoteBook/AlphaFold结构预测系列工具安装及使用.md) | [知乎]() |  

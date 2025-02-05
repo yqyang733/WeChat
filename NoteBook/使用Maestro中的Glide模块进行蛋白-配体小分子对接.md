@@ -36,6 +36,16 @@
 简介：Protein Preparation Wizard模块可以帮助用户自动进行蛋白准备。经过该模块准备后的蛋白结构可用于后续的其他计算任务，如Glide、Prime、QSite和MacroModel。Protein Preparation Wizard模块的打开方式如下图：  
 ![](使用Maestro中的Glide模块进行蛋白-配体小分子对接/使用Maestro中的Glide模块进行蛋白-配体小分子对接_2025-02-05-12-04-57.png)  
 
+Protein Preparation Wizard模块的主界面简介如下所示：  
+![](使用Maestro中的Glide模块进行蛋白-配体小分子对接/使用Maestro中的Glide模块进行蛋白-配体小分子对接_2025-02-05-16-33-51.png)  
+
+我一般使用的是交互式的，一个步骤进行完成成功后再进行下一个步骤。  
+
+1. 蛋白结构输入。  
+![](使用Maestro中的Glide模块进行蛋白-配体小分子对接/使用Maestro中的Glide模块进行蛋白-配体小分子对接_2025-02-05-16-51-33.png)  
+2. 蛋白结构预处理。  
+![](使用Maestro中的Glide模块进行蛋白-配体小分子对接/使用Maestro中的Glide模块进行蛋白-配体小分子对接_2025-02-05-18-30-53.png)  
+3. 
 
 ## 对接盒子生成
 ## 配体准备

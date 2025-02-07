@@ -142,6 +142,7 @@
 ### 文献 | References
 * [蛋白设计|基于深度学习的蛋白序列设计方法ProteinMPNN](https://mp.weixin.qq.com/s/2dK7U5klxw4Xy4-sOrp_Xw) |  
 * [蛋白设计|靶向蛋白-小分子形成的新表面进行蛋白设计的几何深度学习计算策略MaSIF-neosurf](https://mp.weixin.qq.com/s/Tk9mGGohFAAj9GVdGV6I7w) | [github](./NoteBook/蛋白设计靶向蛋白-小分子形成的新表面进行蛋白设计的几何深度学习计算策略MaSIF-neosurf.md) | [知乎](https://zhuanlan.zhihu.com/p/21228347341) |  
+* [EVOLVEpro：蛋白质语言模型驱动的快速定向进化](https://mp.weixin.qq.com/s/dzvb9uU2F9YDvsTsqgW_0Q) | [github](./NoteBook/EVOLVEpro蛋白质语言模型驱动的快速定向进化.md) | [知乎](https://zhuanlan.zhihu.com/p/21988695235) |  
 * [文献阅读|使用AI方法预测CPI综述](https://mp.weixin.qq.com/s/thF26gLQZo8jy_uj9_qCGA) |  
 * [药物发现中先进的机器学习技术综述](https://mp.weixin.qq.com/s/1rmZrR-Ks5kfXdCsXnvHqA) | [github](./NoteBook/药物发现中先进的机器学习技术综述.md) | [知乎](https://zhuanlan.zhihu.com/p/15287402231) |  
 * [推荐系统|推荐系统算法用于抗病毒药物发现](https://mp.weixin.qq.com/s/q9wzKMVRlIJz0-0DVIHSBQ) | [github](./NoteBook/推荐系统推荐系统算法用于抗病毒药物发现.md) | [知乎](https://zhuanlan.zhihu.com/p/15828382785) |   
@@ -158,7 +159,6 @@
 
 **Temp:**  
 * [蛋白设计|蛋白质结构和功能de novo设计方法RFdiffusion]() | [github](./NoteBook/蛋白设计蛋白质结构和功能denovo设计方法RFdiffusion.md)（需要尽快写好） | [知乎]() |    
-* [EVOLVEpro：蛋白质语言模型驱动的快速定向进化]() | [github](./NoteBook/EVOLVEpro蛋白质语言模型驱动的快速定向进化.md) | [知乎]() |  
 * [NCS文献周览（2025.2.3-2025.2.9）]() | [github](./NoteBook/NCS文献周览20250203-20250209.md) | [知乎]() |  
 * [AI工具|AI辅助文献阅读的Prompt]() | [github](./NoteBook/AI工具AI辅助文献阅读的Prompt.md) | [知乎] |  
 ## 更多信息

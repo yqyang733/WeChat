@@ -156,11 +156,13 @@
 * [分子对接|RNA-蛋白质对接和三维结构预测的工具和benchmarks](https://mp.weixin.qq.com/s/jGda8S6aeK17YOYOzUQprg) |  
 * [别构|激酶变构抑制原理及口袋验证](https://mp.weixin.qq.com/s/JVbu52uVAw4TC24A2MJRjw) |  
 * [靶向SIRT6隐藏别构位点的小分子抑制剂设计](https://mp.weixin.qq.com/s/8bMBYZw_w5HHS3WzCbPzAw) |  
+* [NCS文献周览（2025.2.3-2025.2.9）](https://mp.weixin.qq.com/s/6MFNzVl8KvNKy76zf_EHyA) | [github](./NoteBook/NCS文献周览20250203-20250209.md) | [知乎](https://zhuanlan.zhihu.com/p/22703388506) |  
 
 **Temp:**  
 * [蛋白设计|蛋白质结构和功能de novo设计方法RFdiffusion]() | [github](./NoteBook/蛋白设计蛋白质结构和功能denovo设计方法RFdiffusion.md)（需要尽快写好） | [知乎]() |    
-* [NCS文献周览（2025.2.3-2025.2.9）]() | [github](./NoteBook/NCS文献周览20250203-20250209.md) | [知乎]() |  
 * [AI工具|AI辅助文献阅读的Prompt]() | [github](./NoteBook/AI工具AI辅助文献阅读的Prompt.md) | [知乎] |  
+* [NCS文献周览（2025.2.10-2025.2.16）]() | [github](./NoteBook/NCS文献周览20250210-20250216.md) | [知乎]() |  
+* [ProtGPS：蛋白质语言模型预测人类蛋白质的亚细胞定位]() | [github](./NoteBook/ProtGPS蛋白质语言模型预测人类蛋白质的亚细胞定位.md) | [知乎]() |   
 ## 更多信息
 ### 与我联系
 ### 总结&反思

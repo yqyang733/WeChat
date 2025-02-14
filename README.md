@@ -12,6 +12,7 @@
 * [smina 软件进行蛋白小分子的分子对接（三）：未知结合位点信息的蛋白配体小分子盲对接](https://mp.weixin.qq.com/s/eMBHYtdoGhGJhgyHmWKLsg) |  
 * [smina 软件进行蛋白小分子的分子对接（四）：口袋预测软件确定对接盒子的蛋白配体小分子对接](https://mp.weixin.qq.com/s/t8F7HE8E1YwcYpVaN_f-XA) |  
 * [学术版Desmond申请及在Linux系统中安装](https://mp.weixin.qq.com/s/O-iq3fM6RLtRZzJBd6p7EQ) | [github](./NoteBook/学术版Desmond申请及在Linux系统中安装.md) | [知乎](https://zhuanlan.zhihu.com/p/21514676816)  
+* [使用Maestro中的Glide模块进行蛋白-配体小分子对接](https://mp.weixin.qq.com/s/-AIdlTiojNjgip0a9e3u_A) | [github](./NoteBook/使用Maestro中的Glide模块进行蛋白-配体小分子对接.md) | [知乎](https://zhuanlan.zhihu.com/p/23785647271)    
 * [计算两个小分子空间结构的RMSD用于分子对接挑选分子](https://mp.weixin.qq.com/s/SGRlG3rFuuYts-CQYiBcuA) |  
 * [ZDOCK 对接生成大规模蛋白-蛋白，蛋白-多肽，蛋白-核酸构象系综](https://mp.weixin.qq.com/s/sgHwbW-80KAkjVFAV4EM9g) |  
 * [分子动力学模拟之前对蛋白晶体结构缺失残基进行补链](https://mp.weixin.qq.com/s/pM2pv-2UXREPdcodOJI69Q) |  
@@ -66,7 +67,6 @@
 * [Gromacs进行拉伸分子动力学（SMD）模拟]() | [github]() | [知乎]() |  
 * [Gromacs进行伞形采样（Umbrella Sampling）]() | [github](./NoteBook/Gromacs进行伞形采样UmbrellaSampling.md) | [知乎]() |  
 * [Gromacs进行动力学模拟Error集锦]() | [github](./NoteBook/Gromacs进行动力学模拟Error集锦.md) | [知乎]() |    
-* [使用Maestro中的Glide模块进行蛋白-配体小分子对接]() | [github](./NoteBook/使用Maestro中的Glide模块进行蛋白-配体小分子对接.md) | [知乎]()  
 ### 人工智能 | Artificial Intelligence
 * [AlphaFold结构预测系列工具安装及使用]() | [github](./NoteBook/AlphaFold结构预测系列工具安装及使用.md) | [知乎]() |  
 * [蛋白设计ProteinMPNN|ProteinMPNN中对晶体结构CIF文件数据清洗信息提取的脚本工具](https://mp.weixin.qq.com/s/jG2saNgHN-JxWT1P9xhIPA) |  
@@ -143,6 +143,7 @@
 * [蛋白设计|基于深度学习的蛋白序列设计方法ProteinMPNN](https://mp.weixin.qq.com/s/2dK7U5klxw4Xy4-sOrp_Xw) |  
 * [蛋白设计|靶向蛋白-小分子形成的新表面进行蛋白设计的几何深度学习计算策略MaSIF-neosurf](https://mp.weixin.qq.com/s/Tk9mGGohFAAj9GVdGV6I7w) | [github](./NoteBook/蛋白设计靶向蛋白-小分子形成的新表面进行蛋白设计的几何深度学习计算策略MaSIF-neosurf.md) | [知乎](https://zhuanlan.zhihu.com/p/21228347341) |  
 * [EVOLVEpro：蛋白质语言模型驱动的快速定向进化](https://mp.weixin.qq.com/s/dzvb9uU2F9YDvsTsqgW_0Q) | [github](./NoteBook/EVOLVEpro蛋白质语言模型驱动的快速定向进化.md) | [知乎](https://zhuanlan.zhihu.com/p/21988695235) |  
+* [ProtGPS：蛋白质语言模型预测人类蛋白质的亚细胞定位](https://mp.weixin.qq.com/s/x_W2F2JGScJcf-B7fedbow) | [github](./NoteBook/ProtGPS蛋白质语言模型预测人类蛋白质的亚细胞定位.md) | [知乎](https://zhuanlan.zhihu.com/p/23786475761) |   
 * [文献阅读|使用AI方法预测CPI综述](https://mp.weixin.qq.com/s/thF26gLQZo8jy_uj9_qCGA) |  
 * [药物发现中先进的机器学习技术综述](https://mp.weixin.qq.com/s/1rmZrR-Ks5kfXdCsXnvHqA) | [github](./NoteBook/药物发现中先进的机器学习技术综述.md) | [知乎](https://zhuanlan.zhihu.com/p/15287402231) |  
 * [推荐系统|推荐系统算法用于抗病毒药物发现](https://mp.weixin.qq.com/s/q9wzKMVRlIJz0-0DVIHSBQ) | [github](./NoteBook/推荐系统推荐系统算法用于抗病毒药物发现.md) | [知乎](https://zhuanlan.zhihu.com/p/15828382785) |   
@@ -161,8 +162,8 @@
 **Temp:**  
 * [蛋白设计|蛋白质结构和功能de novo设计方法RFdiffusion]() | [github](./NoteBook/蛋白设计蛋白质结构和功能denovo设计方法RFdiffusion.md)（需要尽快写好） | [知乎]() |    
 * [AI工具|AI辅助文献阅读的Prompt]() | [github](./NoteBook/AI工具AI辅助文献阅读的Prompt.md) | [知乎] |  
-* [NCS文献周览（2025.2.10-2025.2.16）]() | [github](./NoteBook/NCS文献周览20250210-20250216.md) | [知乎]() |  
-* [ProtGPS：蛋白质语言模型预测人类蛋白质的亚细胞定位]() | [github](./NoteBook/ProtGPS蛋白质语言模型预测人类蛋白质的亚细胞定位.md) | [知乎]() |   
+* [NCS文献周览（2025.2.10-2025.2.16）]() | [github](./NoteBook/NCS文献周览20250210-20250216.md) | [知乎]() |    
+* [蛋白设计|丝氨酸水解酶的计算机设计]() | [github](./NoteBook/蛋白设计丝氨酸水解酶的计算机设计.md) | [知乎]() |  
 ## 更多信息
 ### 与我联系
 ### 总结&反思

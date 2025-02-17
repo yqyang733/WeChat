@@ -5,7 +5,7 @@
 
 在这方面，GROMACS与SwissParam的结合提供了一个强大且高效的解决方案。GROMACS作为世界领先的分子动力学模拟软件，其优秀的性能和灵活的功能，使得它成为进行蛋白质-配体动力学模拟的理想选择。而SwissParam，则为共价小分子配体提供了自动化的力场参数化功能，特别适用于处理涉及共价结合的复杂体系。通过将GROMACS中的pdb2gmx模块与CHARMM36力场相结合，我们能够为蛋白质生成稳定的结构和准确的力场描述；而使用SwissParam为共价小分子配体生成专门的参数，可以有效模拟配体与蛋白质之间的共价反应过程。
 
-之前文章 []() 介绍了NAMD进行共价体系模拟。本文仍以PDBid：5VBM为例将重点介绍如何在GROMACS平台上进行共价体系的蛋白-配体动力学模拟，利用CHARMM36为蛋白质提供强大的力场支持，同时使用SwissParam为共价小分子配体生成定制的力场参数。通过这一过程，我们可以深入了解共价抑制剂在蛋白质活性位点的作用机制，为药物设计、分子优化及新疗法的探索提供科学依据。
+之前文章 [NAMD进行共价体系蛋白配体动力学模拟，共价小分子配体参数由SwissParam生成](https://mp.weixin.qq.com/s/NoNAdhYkwiPOOVD9wjk8AQ) 介绍了NAMD进行共价体系模拟。本文仍以PDBid：5VBM为例将重点介绍如何在GROMACS平台上进行共价体系的蛋白-配体动力学模拟，利用CHARMM36为蛋白质提供强大的力场支持，同时使用SwissParam为共价小分子配体生成定制的力场参数。通过这一过程，我们可以深入了解共价抑制剂在蛋白质活性位点的作用机制，为药物设计、分子优化及新疗法的探索提供科学依据。
 
 ![](Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm_2025-01-23-21-06-47.png)  
 ## 使用SwissParam产生共价配体92V的MMFF力场参数itp文件
@@ -277,7 +277,7 @@ gmx editconf -f build.pdb -o newbox.gro -bt cubic -d 0.8
 ```
 **（5）准备共价相关的键，键角，二面角等参数。** 在top文件末尾的[ intermolecular_interactions ]字段中添加共价相关的键，键角，二面角等参数。可参考文章 [Gromacs中进行距离限制（一）](https://mp.weixin.qq.com/s/dw3TEJLp_4XF3k4oQPNbSw)。[ intermolecular_interactions ]字段可用于建立不同itp文件之间的键与非键作用。   
 
-如何确定共价相关的键，键角和二面角参数也可参考文章 []()。如下图所示，[ intermolecular_interactions ]字段中用于表示原子的是体系的全局编号，即复合物gro文件中的原子编号。首先找出共价键相关的键，键角和二面角。  
+如何确定共价相关的键，键角和二面角参数也可参考文章 [NAMD进行共价体系蛋白配体动力学模拟，共价小分子配体参数由SwissParam生成](https://mp.weixin.qq.com/s/NoNAdhYkwiPOOVD9wjk8AQ)。如下图所示，[ intermolecular_interactions ]字段中用于表示原子的是体系的全局编号，即复合物gro文件中的原子编号。首先找出共价键相关的键，键角和二面角。  
 ![](Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm_2025-01-23-15-41-30.png)  
 
 但是共价反应产生的力场中仅延伸到CYS残基的CB原子，并没有延申到CA原子。所以根据上述已有的文件是没办法获得含有CA原子的二面角参数的。所以这里将分子结构mol2文件多保存一些然后使用SwissParam基于MMFF再产生一次力场参数。输入结构如下图所示，并根据参数文件将上述确实的参数匹配补齐。   

@@ -61,6 +61,7 @@
 * [gmx命令|gmx cluster聚类]() | [github](./NoteBook/gmx命令gmxcluster聚类.md) | [知乎]() |  
 * [gmx命令|gmx editconf进行结构预处理]() | [github]() | [知乎]() |  
 * [gmx命令|gmx genrestr生成位置限制文件]() | [github]() | [知乎]() |  
+* [gmx命令|gmx rms计算与参考结构之间的RMSD]() | [github](./NoteBook/gmx命令gmxrms计算与参考结构之间的RMSD.md) | [知乎]() |  
 * [gmx后处理|多链体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理多链体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |   
 * [gmx后处理|膜体系周期性边界条件处理生成平滑轨迹]() | [github](./NoteBook/gmx后处理膜体系周期性边界条件处理生成平滑轨迹.md) | [知乎]() |  
 * [RDKit生成小分子3D构象系综]() | [github](./NoteBook/RDKit生成小分子3D构象系综.md) | [知乎]() |  
@@ -116,6 +117,7 @@
 * [Zotero文献管理|CSL样式规范]() | [github](./NoteBook/Zotero文献管理CSL样式规范.md) | [知乎]() |  
 * [计算模拟方向相关的一些SCI期刊]() | [github](./NoteBook/计算模拟方向相关的一些SCI期刊.md) | [知乎]() |  
 * [matplotlib绘制散点-柱状结合分布图]() | [github](./NoteBook/matplotlib绘制散点-柱状结合分布图.md) | [知乎]() |  
+* [Python绘图|Python绘制多曲线图（续一）：绘制多组重复的RMSD曲线图]() | [github](./NoteBook/Python绘图Python绘制多曲线图续一绘制多组重复的RMSD曲线图.md) | [知乎]() |  
 ## 理论合集 | Theory Column
 ### 文章精选
 * [理论合集文章精选（截至2025年春节/2025.1.29）](https://mp.weixin.qq.com/s/C50sY1oAFb6MmB0oLNmslw) | [github](./NoteBook/理论合集文章精选截至2025年春节20250129.md) | [知乎](https://zhuanlan.zhihu.com/p/20483313054) |  

@@ -118,6 +118,9 @@
 * [计算模拟方向相关的一些SCI期刊]() | [github](./NoteBook/计算模拟方向相关的一些SCI期刊.md) | [知乎]() |  
 * [matplotlib绘制散点-柱状结合分布图]() | [github](./NoteBook/matplotlib绘制散点-柱状结合分布图.md) | [知乎]() |  
 * [Python绘图|Python绘制多曲线图（续一）：绘制多组重复的RMSD曲线图]() | [github](./NoteBook/Python绘图Python绘制多曲线图续一绘制多组重复的RMSD曲线图.md) | [知乎]() |  
+* [Python绘图|Python绘制小提琴图]() | [github]() | [知乎]() |  
+* [Python绘图|Python绘制小提琴图（续一）：绘制多组分渐变色小提琴图]() | [github]() | [知乎]() |  
+* [Python绘图|Python绘制组合图（柱状分布图+折线图+3个子图）]() | [github]() | [知乎]() |  
 ## 理论合集 | Theory Column
 ### 文章精选
 * [理论合集文章精选（截至2025年春节/2025.1.29）](https://mp.weixin.qq.com/s/C50sY1oAFb6MmB0oLNmslw) | [github](./NoteBook/理论合集文章精选截至2025年春节20250129.md) | [知乎](https://zhuanlan.zhihu.com/p/20483313054) |  

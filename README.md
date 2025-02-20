@@ -24,6 +24,7 @@
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MMFF94力场参数](https://mp.weixin.qq.com/s/O7vRQ5AHHSrNtDAoCsiZWw) | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MMFF94力场参数.md) | [知乎](https://zhuanlan.zhihu.com/p/13707877318) |    
 * [蛋白-配体小分子动力学模拟：蛋白使用pdb2gmx charmm36，小分子使用swissparm生成的MATCH力场参数（Gromacs版）](https://mp.weixin.qq.com/s/DMMZ7kOgD8uWidgyHH6NTQ) | [github](./NoteBook/蛋白-配体小分子动力学模拟蛋白使用pdb2gmxcharmm36小分子使用swissparm生成的MATCH力场参数Gromacs版.md) | [知乎](https://zhuanlan.zhihu.com/p/17160200902) |   
 * [NAMD进行共价体系蛋白配体动力学模拟，共价小分子配体参数由SwissParam生成](https://mp.weixin.qq.com/s/NoNAdhYkwiPOOVD9wjk8AQ) | [github](./NoteBook/NAMD进行共价体系蛋白配体动力学模拟共价小分子配体参数由SwissParam生成.md) | [知乎](https://zhuanlan.zhihu.com/p/20134065528) |   
+* [Gromacs进行共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，共价小分子使用swissparam](https://mp.weixin.qq.com/s/XviJngVdoknjWkTdj-mqbQ) | [github](./NoteBook/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm.md) | [知乎](https://zhuanlan.zhihu.com/p/24983035091) |   
 * [纯标准蛋白质体系分子动力学模拟：vmd建模+NAMD模拟](https://mp.weixin.qq.com/s/JQpoMEbtP2d57WKjunlqYw) | [github](./NoteBook/纯标准蛋白质体系分子动力学模拟vmd建模NAMD模拟.md) | [知乎](https://zhuanlan.zhihu.com/p/14145261461) |   
 * [AMBER+GAFF力场下蛋白-配体复合物的分子动力学模拟](https://mp.weixin.qq.com/s/7T8Paj-xDrlx0qpXpXUrXQ) |  
 * [细胞膜体系动力学模拟：CHARMM-GUI构建脂质双分子层](https://mp.weixin.qq.com/s/bv-asjP6tht7Gai-w42Xcw) | [github](./NoteBook/细胞膜体系动力学模拟CHARMM-GUI构建脂质双分子层.md) | [知乎](https://zhuanlan.zhihu.com/p/17803020579) |  
@@ -53,7 +54,6 @@
 * [蛋白-配体小分子动力学模拟：完全使用CHARMM-GUI建模]() | [github](./NoteBook/蛋白-配体小分子动力学模拟完全使用CHARMM-GUI建模.md) | [知乎]() |  
 * [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]() | [github](./NoteBook/膜蛋白动力学模拟CHARMM-GUI构建膜蛋白.md) | [知乎]() |  
 * （3）[共价体系蛋白配体动力学模拟：CHARMM-GUI建模共价体系]() | [github](./NoteBook/共价体系蛋白配体动力学模拟CHARMM-GUI建模共价体系.md) | [知乎]() |   
-* [Gromacs进行共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，共价小分子使用swissparam]() | [github](./NoteBook/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparm.md) | [知乎]() |  
 * [Gromacs进行共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，共价小分子使用swissparam（续）]() | [github](./NoteBook/Gromacs进行共价体系蛋白配体动力学模拟蛋白使用pdb2gmxcharmm36共价小分子使用swissparam续.md) | [知乎]() |   
 * （4）[力场|Merck Molecular Force Field（MMFF）]() | [github](./NoteBook/力场MerckMolecularForceFieldMMFF.md) | [知乎]() |  
 * [gmx命令|gmx distance计算距离]() | [github](./NoteBook/gmx命令之gmxdistance计算距离.md) | [知乎]() |  
@@ -103,6 +103,7 @@
 * [Python绘图|Python绘制ROC曲线和PR曲线](https://mp.weixin.qq.com/s/E49bQMlz02S3zBjI-zMhUA) |  
 * [matplotlib绘制填充的曲线图](https://mp.weixin.qq.com/s/f9i2y5n3-WjxJI1sXda1Zg) |  
 * [Python绘图|Python绘制多曲线图](https://mp.weixin.qq.com/s/Iooa4ff42_lmsgmHv9bOCw) |  
+* [Python绘图|Python绘制多曲线图（续一）：绘制多组重复的RMSD曲线图](https://mp.weixin.qq.com/s/OEaS0bEJUcDwYxYjT71MNg) | [github](./NoteBook/Python绘图Python绘制多曲线图续一绘制多组重复的RMSD曲线图.md) | [知乎](https://zhuanlan.zhihu.com/p/25064994076) |  
 * [Python绘图|绘制热图](https://mp.weixin.qq.com/s/59vc4KPMXJ8ui15K86B6cw) |  
 * [python绘制热图](https://mp.weixin.qq.com/s/dBQRNh0Uxe4ZJljRYmkqyg) |  
 * [python绘制聚类散点图](https://mp.weixin.qq.com/s/lMBRSCJhSZ8RZLErSbNDkQ) |  
@@ -117,10 +118,8 @@
 * [Zotero文献管理|CSL样式规范]() | [github](./NoteBook/Zotero文献管理CSL样式规范.md) | [知乎]() |  
 * [计算模拟方向相关的一些SCI期刊]() | [github](./NoteBook/计算模拟方向相关的一些SCI期刊.md) | [知乎]() |  
 * [matplotlib绘制散点-柱状结合分布图]() | [github](./NoteBook/matplotlib绘制散点-柱状结合分布图.md) | [知乎]() |  
-* [Python绘图|Python绘制多曲线图（续一）：绘制多组重复的RMSD曲线图]() | [github](./NoteBook/Python绘图Python绘制多曲线图续一绘制多组重复的RMSD曲线图.md) | [知乎]() |  
-* [Python绘图|Python绘制小提琴图]() | [github]() | [知乎]() |  
-* [Python绘图|Python绘制小提琴图（续一）：绘制多组分渐变色小提琴图]() | [github]() | [知乎]() |  
-* [Python绘图|Python绘制组合图（柱状分布图+折线图+3个子图）]() | [github]() | [知乎]() |  
+* [Python绘图|Python绘制小提琴图：绘制多组分渐变色小提琴图]() | [github](./NoteBook/Python绘图Python绘制小提琴图绘制多组分渐变色小提琴图.md) | [知乎]() |  
+* [Python绘图|Python绘制组合图（柱状分布图+折线图+3个子图）]() | [github](./NoteBook/Python绘图Python绘制组合图柱状分布图折线图3个子图.md) | [知乎]() |  
 ## 理论合集 | Theory Column
 ### 文章精选
 * [理论合集文章精选（截至2025年春节/2025.1.29）](https://mp.weixin.qq.com/s/C50sY1oAFb6MmB0oLNmslw) | [github](./NoteBook/理论合集文章精选截至2025年春节20250129.md) | [知乎](https://zhuanlan.zhihu.com/p/20483313054) |  

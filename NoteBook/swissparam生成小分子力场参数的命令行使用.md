@@ -71,7 +71,7 @@ curl -s -F "myMol2=@LIG.mol2" "swissparam.ch:5678/startparam?approach=mmff-based
 curl -s -g "swissparam.ch:5678/startparam?mySMILES=CCC(=O)NC1=C2C=CC=CC2=CN=C1&approach=both"
 ```
 ### 共价小分子
-**写在前面：Swissparam提供了一些反应类型的共价配体MMFF力场参数生成方式。但是没有提及如何在Gromacs中使用这些参数进行蛋白-共价配体动力学模拟。并且对比发现采用该方式生成的共价配体化合物参数与将残基-共价配体的复合mol2文件以上述非共价形式使用MMFF生成的参数一致。但是我们大多时候之所以需要共价配体参数是要进一步动力学模拟。所以个人感觉以此方式生成的共价参数有方便用于NAMD模拟建模，具体可参考文章 []()。但这些文件对Gromacs建模参考不大，如何应用Swissparam产生的MMFF力场使用Gromacs进行蛋白-共价配体的动力学模拟可参考文章 []()。** 
+**写在前面：Swissparam提供了一些反应类型的共价配体MMFF力场参数生成方式。但是没有提及如何在Gromacs中使用这些参数进行蛋白-共价配体动力学模拟。并且对比发现采用该方式生成的共价配体化合物参数与将残基-共价配体的复合mol2文件以上述非共价形式使用MMFF生成的参数一致。但是我们大多时候之所以需要共价配体参数是要进一步动力学模拟。所以个人感觉以此方式生成的共价参数方便用于NAMD模拟建模，具体可参考文章 [NAMD进行共价体系蛋白配体动力学模拟，共价小分子配体参数由SwissParam生成](https://mp.weixin.qq.com/s/NoNAdhYkwiPOOVD9wjk8AQ)。但这些文件对Gromacs建模参考不大，如何应用Swissparam产生的MMFF力场使用Gromacs进行蛋白-共价配体的动力学模拟可参考文章 [Gromacs进行共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，共价小分子使用swissparam](https://mp.weixin.qq.com/s/XviJngVdoknjWkTdj-mqbQ) 和 [Gromacs进行共价体系蛋白配体动力学模拟：蛋白使用pdb2gmx charmm36，共价小分子使用swissparam（续）](https://mp.weixin.qq.com/s/y10bvAXalgE1iDcJJsTVEg)。** 
 
 首先介绍一下为共价小分子进行参数化的SwissParam命令结构。命令格式如下所示，其中**molecule.mol2**是输入的共价分子的mol2格式文件。**ligsite=l**是共价连接的配体位置（即配体分子的原子名称）。**reaction=r**是选择的反应类型。**protres=p**是执行共价连接的蛋白质残基，可以是 CYS、SER、LYS、ASP、GLU、THR、TYR。**topology=t**是配体的拓扑结构类型，可以是 "post-cap" 或 "pre-reactive"。   
 可使用的反应类型有：**aziridine_open**：对氮杂环的开环机制；**blac_open**：对β-内酰胺的开环机制；**carbonyl_add**：对羰基的加成反应；**disulf_form**：形成二硫键；**epoxide_open**：对环氧化物的开环机制；**glac_open**：对ɣ-内酰胺的开环机制；**imine_form**：形成亚胺；**michael_add**：对Michael受体的加成反应；**nitrile_add**：对腈的加成反应；**nucl_subst**：亲核取代反应。   

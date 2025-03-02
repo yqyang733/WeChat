@@ -152,6 +152,7 @@
 * [药物发现中先进的机器学习技术综述](https://mp.weixin.qq.com/s/1rmZrR-Ks5kfXdCsXnvHqA) | [github](./NoteBook/药物发现中先进的机器学习技术综述.md) | [知乎](https://zhuanlan.zhihu.com/p/15287402231) |  
 * [推荐系统|推荐系统算法用于抗病毒药物发现](https://mp.weixin.qq.com/s/q9wzKMVRlIJz0-0DVIHSBQ) | [github](./NoteBook/推荐系统推荐系统算法用于抗病毒药物发现.md) | [知乎](https://zhuanlan.zhihu.com/p/15828382785) |   
 * [力场工具|为有机分子自动分配原子类型和力场参数的工具集MATCH](https://mp.weixin.qq.com/s/bQVsc-TphDan-WXrUQw0Xw) | [github](./NoteBook/力场工具为有机分子自动分配原子类型和力场参数的工具集MATCH.md) | [知乎](https://zhuanlan.zhihu.com/p/14788004056) |  
+* [分子动力学模拟建模工具CHARMM-GUI的功能总览和参考文献]() | [github](./NoteBook/分子动力学模拟建模工具CHARMM-GUI的功能总览和参考文献.md) | [知乎]() |   
 * [使用分子动力学模拟准确计算蛋白配体的标准结合自由能](https://mp.weixin.qq.com/s/Oaj1JGD6BDVMSBrLzCdujQ) |  
 * [探索生物大分子构象转变最优路径的方法TAPS](https://mp.weixin.qq.com/s/QIONB64qrC3QiczhNX932w) |  
 * [REMD方法|REST](https://mp.weixin.qq.com/s/fZEhYSnKCRHRXsASY7nHNw) |  

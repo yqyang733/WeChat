@@ -165,13 +165,16 @@
 * [NCS文献周览（2025.2.3-2025.2.9）](https://mp.weixin.qq.com/s/6MFNzVl8KvNKy76zf_EHyA) | [github](./NoteBook/NCS文献周览20250203-20250209.md) | [知乎](https://zhuanlan.zhihu.com/p/22703388506) |  
 * [NCS文献周览（2025.2.10-2025.2.16）](https://mp.weixin.qq.com/s/2iXOqcA8HOADFDp7HX2tQg) | [github](./NoteBook/NCS文献周览20250210-20250216.md) | [知乎](https://zhuanlan.zhihu.com/p/24225689873) |    
 * [NCS文献周览（2025.2.17-2025.2.23）](https://mp.weixin.qq.com/s/LpV2m6FrSwjC27n8cD64oA) | [github](./NoteBook/NCS文献周览20250217-20250223.md) | [知乎](https://zhuanlan.zhihu.com/p/26021478029) |    
+* [NCS文献周览（2025.2.24-2025.3.2）](https://mp.weixin.qq.com/s/h9Xq48bvrMGg0BL9vPphZw) | [github](./NoteBook/NCS文献周览20250224-20250302.md) | [知乎](https://zhuanlan.zhihu.com/p/27552630642)     
 
 **Temp:**  
 * [蛋白设计|蛋白质结构和功能de novo设计方法RFdiffusion]() | [github](./NoteBook/蛋白设计蛋白质结构和功能denovo设计方法RFdiffusion.md)（需要尽快写好） | [知乎]() |    
 * [AI工具|AI辅助文献阅读的Prompt]() | [github](./NoteBook/AI工具AI辅助文献阅读的Prompt.md) | [知乎] |  
 * [蛋白设计|丝氨酸水解酶的计算机设计]() | [github](./NoteBook/蛋白设计丝氨酸水解酶的计算机设计.md) | [知乎]() |  
 * [丝氨酸蛋白酶构象集合的统计分析揭示其催化起源]() | [github](./NoteBook/丝氨酸蛋白酶构象集合的统计分析揭示其催化起源.md) | [知乎]()   
-* [NCS文献周览（2025.2.24-2025.3.2）]() | [github](./NoteBook/NCS文献周览20250224-20250302.md) | [知乎]()    
+* [NCS文献周览（2025.3.3-2025.3.9）]() | [github](./NoteBook/NCS文献周览20250303-20250309.md) | [知乎]()    
+* [展望使用人工智能构建虚拟细胞]() | [github](./NoteBook/展望使用人工智能构建虚拟细胞.md) | [知乎]()   
+
 ## 更多信息
 ### 与我联系
 ### 总结&反思

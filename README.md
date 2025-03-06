@@ -153,6 +153,7 @@
 * [文献阅读|使用AI方法预测CPI综述](https://mp.weixin.qq.com/s/thF26gLQZo8jy_uj9_qCGA) |  
 * [药物发现中先进的机器学习技术综述](https://mp.weixin.qq.com/s/1rmZrR-Ks5kfXdCsXnvHqA) | [github](./NoteBook/药物发现中先进的机器学习技术综述.md) | [知乎](https://zhuanlan.zhihu.com/p/15287402231) |  
 * [推荐系统|推荐系统算法用于抗病毒药物发现](https://mp.weixin.qq.com/s/q9wzKMVRlIJz0-0DVIHSBQ) | [github](./NoteBook/推荐系统推荐系统算法用于抗病毒药物发现.md) | [知乎](https://zhuanlan.zhihu.com/p/15828382785) |   
+* [展望使用人工智能构建虚拟细胞](https://mp.weixin.qq.com/s/QaUrUXBsAlkA6Clww_jBkA) | [github](./NoteBook/展望使用人工智能构建虚拟细胞.md) | [知乎](https://zhuanlan.zhihu.com/p/28372573951)     
 * [力场工具|为有机分子自动分配原子类型和力场参数的工具集MATCH](https://mp.weixin.qq.com/s/bQVsc-TphDan-WXrUQw0Xw) | [github](./NoteBook/力场工具为有机分子自动分配原子类型和力场参数的工具集MATCH.md) | [知乎](https://zhuanlan.zhihu.com/p/14788004056) |  
 * [分子动力学模拟建模工具CHARMM-GUI的功能总览和参考文献]() | [github](./NoteBook/分子动力学模拟建模工具CHARMM-GUI的功能总览和参考文献.md) | [知乎]() |   
 * [使用分子动力学模拟准确计算蛋白配体的标准结合自由能](https://mp.weixin.qq.com/s/Oaj1JGD6BDVMSBrLzCdujQ) |  
@@ -175,7 +176,6 @@
 * [蛋白设计|丝氨酸水解酶的计算机设计]() | [github](./NoteBook/蛋白设计丝氨酸水解酶的计算机设计.md) | [知乎]() |  
 * [丝氨酸蛋白酶构象集合的统计分析揭示其催化起源]() | [github](./NoteBook/丝氨酸蛋白酶构象集合的统计分析揭示其催化起源.md) | [知乎]()   
 * [NCS文献周览（2025.3.3-2025.3.9）]() | [github](./NoteBook/NCS文献周览20250303-20250309.md) | [知乎]()    
-* [展望使用人工智能构建虚拟细胞]() | [github](./NoteBook/展望使用人工智能构建虚拟细胞.md) | [知乎]()   
 * [蛋白质大语言模型ESM3]() | [github](./NoteBook/蛋白质大语言模型ESM3.md) | [知乎]() |   
 
 ## 更多信息

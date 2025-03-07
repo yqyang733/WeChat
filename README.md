@@ -51,6 +51,7 @@
 * [PDB晶体结构数据库特定蛋白晶体信息统计](https://mp.weixin.qq.com/s/jhveeYPUu-H8aH-vNgfjig) |  
 
 **Temp:**  
+* [分子碎片化工具MacFrag]() | [github](./NoteBook/分子碎片化工具MacFrag.md) | [知乎]() |  
 * [pymol](./NoteBook/pymol.md)  
 * [chimerax](./NoteBook/chimerax.md)  
 * [膜蛋白动力学模拟：CHARMM-GUI构建膜蛋白]() | [github](./NoteBook/膜蛋白动力学模拟CHARMM-GUI构建膜蛋白.md) | [知乎]() |  
@@ -177,7 +178,7 @@
 * [丝氨酸蛋白酶构象集合的统计分析揭示其催化起源]() | [github](./NoteBook/丝氨酸蛋白酶构象集合的统计分析揭示其催化起源.md) | [知乎]()   
 * [NCS文献周览（2025.3.3-2025.3.9）]() | [github](./NoteBook/NCS文献周览20250303-20250309.md) | [知乎]()    
 * [蛋白质大语言模型ESM3]() | [github](./NoteBook/蛋白质大语言模型ESM3.md) | [知乎]() |  
-* [文献专题|基于结构的蛋白配体互作打分函数]() | [github](./文献专题基于结构的蛋白配体互作打分函数.md) | [知乎]()   
+* [文献专题|基于结构的蛋白配体互作打分函数]() | [github](./NoteBook/文献专题基于结构的蛋白配体互作打分函数.md) | [知乎]()   
 
 ## 更多信息
 ### 与我联系
